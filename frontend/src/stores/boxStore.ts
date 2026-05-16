@@ -1,39 +1,37 @@
 import { create } from 'zustand'
-import type { BoxSeries } from '@/types'
+import type { PetBreed } from '@/types'
 import { fetchSeries } from '@/utils/api'
 
-interface BoxState {
-  series: BoxSeries[]
+interface BreedState {
+  breeds: PetBreed[]
   loading: boolean
   error: string | null
-  loadSeries: () => Promise<void>
-  getSeriesById: (id: number) => BoxSeries | undefined
-  updateSeries: (s: BoxSeries) => void
-  removeSeries: (id: number) => void
+  loadBreeds: () => Promise<void>
+  getBreedById: (id: number) => PetBreed | undefined
+  updateBreed: (b: PetBreed) => void
+  removeBreed: (id: number) => void
 }
 
-export const useBoxStore = create<BoxState>((set, get) => ({
-  series: [],
+export const useBreedStore = create<BreedState>((set, get) => ({
+  breeds: [],
   loading: false,
   error: null,
-
-  loadSeries: async () => {
+  loadBreeds: async () => {
     set({ loading: true, error: null })
     try {
       const data = await fetchSeries()
-      set({ series: data, loading: false })
+      set({ breeds: data, loading: false })
     } catch (e) {
       set({ error: (e as Error).message, loading: false })
     }
   },
-
-  getSeriesById: (id) => get().series.find((s) => s.id === id),
-
-  updateSeries: (s) => set((state) => ({
-    series: state.series.map((item) => (item.id === s.id ? s : item)),
-  })),
-
-  removeSeries: (id) => set((state) => ({
-    series: state.series.filter((s) => s.id !== id),
-  })),
+  getBreedById: (id) => get().breeds.find((s) => s.id === id),
+  updateBreed: (b) =>
+    set((state) => ({
+      breeds: state.breeds.map((item) => (item.id === b.id ? b : item)),
+    })),
+  removeBreed: (id) =>
+    set((state) => ({
+      breeds: state.breeds.filter((s) => s.id !== id),
+    })),
 }))

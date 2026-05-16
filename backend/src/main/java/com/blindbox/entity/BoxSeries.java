@@ -12,12 +12,8 @@ public class BoxSeries {
     private String name;
     private String coverUrl;
     private String description;
-    private Long price;
-    private Integer totalItems;
     private Integer status;
     private Integer sortOrder;
-    private Integer isHot;
-    private Integer isNew;
     @TableField(fill = FieldFill.INSERT)
     private LocalDateTime createdAt;
     @TableField(fill = FieldFill.INSERT_UPDATE)

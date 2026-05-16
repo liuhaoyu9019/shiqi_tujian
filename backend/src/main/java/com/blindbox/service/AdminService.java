@@ -15,25 +15,17 @@ public class AdminService {
 
     private final BoxSeriesMapper seriesMapper;
     private final ItemDefMapper itemDefMapper;
-    private final DrawRecordMapper drawRecordMapper;
 
     // ===== Dashboard =====
     public Map<String, Object> dashboard() {
         Map<String, Object> data = new LinkedHashMap<>();
         data.put("seriesCount", seriesMapper.selectCount(null));
         data.put("itemCount", itemDefMapper.selectCount(null));
-        data.put("drawCount", drawRecordMapper.selectCount(null));
-        // 今日开盒
-        long todayDraws = drawRecordMapper.selectCount(
-            new LambdaQueryWrapper<DrawRecord>()
-                .ge(DrawRecord::getCreatedAt, java.time.LocalDate.now())
-        );
-        data.put("todayDraws", todayDraws);
-        // 各系列开盒排行
+        // 各系列图片数量排行
         List<Map<String, Object>> seriesRank = new ArrayList<>();
         for (BoxSeries s : seriesMapper.selectList(null)) {
-            long cnt = drawRecordMapper.selectCount(
-                new LambdaQueryWrapper<DrawRecord>().eq(DrawRecord::getSeriesId, s.getId())
+            long cnt = itemDefMapper.selectCount(
+                new LambdaQueryWrapper<ItemDef>().eq(ItemDef::getSeriesId, s.getId())
             );
             seriesRank.add(Map.of("id", s.getId(), "name", s.getName(), "count", cnt));
         }
@@ -92,19 +84,8 @@ public class AdminService {
         return itemDefMapper.selectPage(pg,
             new LambdaQueryWrapper<ItemDef>()
                 .eq(seriesId != null, ItemDef::getSeriesId, seriesId)
-                .orderByAsc(ItemDef::getRarity)
-                .orderByDesc(ItemDef::getProbability)
+                .orderByAsc(ItemDef::getSortOrder)
         );
     }
 
-    // ===== 开盒记录 =====
-    public Page<DrawRecord> listDraws(Long seriesId, Integer rarity, int page, int size) {
-        Page<DrawRecord> pg = new Page<>(page, size);
-        return drawRecordMapper.selectPage(pg,
-            new LambdaQueryWrapper<DrawRecord>()
-                .eq(seriesId != null, DrawRecord::getSeriesId, seriesId)
-                .eq(rarity != null, DrawRecord::getRarity, rarity)
-                .orderByDesc(DrawRecord::getCreatedAt)
-        );
-    }
 }

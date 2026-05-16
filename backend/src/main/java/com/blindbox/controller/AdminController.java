@@ -66,13 +66,4 @@ public class AdminController {
         return Result.ok(null);
     }
 
-    // ===== 开盒记录 =====
-    @GetMapping("/draws")
-    public Result<Page<DrawRecord>> listDraws(
-            @RequestParam(required = false) Long seriesId,
-            @RequestParam(required = false) Integer rarity,
-            @RequestParam(defaultValue = "1") int page,
-            @RequestParam(defaultValue = "20") int size) {
-        return Result.ok(adminService.listDraws(seriesId, rarity, page, size));
-    }
 }
