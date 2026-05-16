@@ -1,0 +1,96 @@
+/* packageAdmin/pages/images/index.wxss — 图片管理样式 */
+
+.page {
+  min-height: 100vh;
+  background: #F5F6FA;
+}
+
+.toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  padding: 24rpx;
+}
+
+.picker {
+  flex: 1;
+}
+
+.picker-display {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #fff;
+  border-radius: 12rpx;
+  padding: 16rpx 24rpx;
+  font-size: 28rpx;
+  color: #1F2937;
+}
+
+.picker-arrow {
+  font-size: 20rpx;
+  color: #9CA3AF;
+}
+
+.btn-add {
+  background: #4F6EF7;
+  color: #fff;
+  font-size: 28rpx;
+  border-radius: 12rpx;
+  padding: 16rpx 24rpx;
+  border: none;
+  white-space: nowrap;
+}
+
+.list {
+  padding: 0 24rpx;
+}
+
+.list-item {
+  display: flex;
+  align-items: center;
+  gap: 20rpx;
+  background: #fff;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  margin-bottom: 16rpx;
+}
+
+.list-thumb {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 12rpx;
+  background: #F3F4F6;
+}
+
+.list-info {
+  flex: 1;
+}
+
+.list-name {
+  font-size: 28rpx;
+  color: #1F2937;
+}
+
+.list-actions {
+  display: flex;
+  gap: 12rpx;
+}
+
+.btn-edit {
+  background: #EEF2FF;
+  color: #4F6EF7;
+  font-size: 24rpx;
+  padding: 8rpx 20rpx;
+  border-radius: 8rpx;
+  border: none;
+}
+
+.btn-delete {
+  background: #FEE2E2;
+  color: #EF4444;
+  font-size: 24rpx;
+  padding: 8rpx 20rpx;
+  border-radius: 8rpx;
+  border: none;
+}

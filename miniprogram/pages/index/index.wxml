@@ -1,0 +1,41 @@
+<view class="page">
+  <view class="hero">
+    <image class="hero-bg" src="https://www.xmwan.com/ueditor/php/upload/image/20210521/1621575551484549.png" mode="scaleToFill" />
+  </view>
+
+  <view wx:if="{{loading}}" class="loading-wrap">
+    <view class="sk-block" />
+    <view class="sk-block" />
+    <view class="sk-block" />
+    <view class="sk-block" />
+    <view class="sk-block" />
+    <view class="sk-block" />
+  </view>
+
+  <view wx:elif="{{error}}" class="empty-wrap" bindtap="onLoad">
+    <text class="empty-icon">⚠️</text>
+    <text class="empty-text">{{error}}</text>
+    <text class="empty-hint">点击重试</text>
+  </view>
+
+  <view wx:elif="{{breeds.length === 0}}" class="empty-wrap">
+    <text class="empty-icon">🐾</text>
+    <text class="empty-text">暂无品种数据</text>
+  </view>
+
+  <view wx:else class="grid">
+    <view wx:for="{{breeds}}" wx:key="id" class="card" data-id="{{item.id}}" bindtap="onBreedTap">
+      <image wx:if="{{item.coverUrl}}" src="{{item.coverUrl}}" mode="aspectFit" class="card-img" lazy-load />
+      <view wx:else class="card-ph"><text class="ph-icon">🐾</text></view>
+      <view class="card-info">
+        <text class="card-name">{{item.name}}</text>
+        <text class="card-desc">{{item.description}}</text>
+      </view>
+    </view>
+  </view>
+
+  <!-- 免责声明 -->
+  <view wx:if="{{!loading}}" class="disclaimer">
+    <text class="disclaimer-text">本工具为玩家自制，非官方，素材仅供怀旧参考，版权归原方所有，侵权请联系删除。</text>
+  </view>
+</view>

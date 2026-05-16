@@ -12,7 +12,7 @@ export default function Header() {
       {/* 左侧 Logo + 导航 */}
       <div className="flex items-center gap-3 sm:gap-6 shrink-0">
         <Link to="/" className="text-lg sm:text-xl font-bold bg-gradient-to-r from-primary to-accent bg-clip-text text-transparent whitespace-nowrap">
-          宠物图鉴
+          石器怀旧宠物图鉴
         </Link>
         <nav className="flex items-center gap-1">
           {navItems.map((item) => {

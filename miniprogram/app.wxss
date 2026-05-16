@@ -1,0 +1,130 @@
+@import './styles/variables.wxss';
+
+page {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'PingFang SC', 'Microsoft YaHei', -apple-system, sans-serif;
+  color: var(--color-text);
+  background: var(--color-bg);
+  -webkit-font-smoothing: antialiased;
+  font-size: 28rpx;
+  line-height: 1.6;
+}
+
+/* 通用容器 */
+.container {
+  padding: 24rpx;
+  box-sizing: border-box;
+}
+
+/* 按钮按压动效 */
+.btn-press:active {
+  transform: scale(0.96);
+}
+
+/* 卡片悬浮 */
+.card {
+  background: var(--color-card);
+  border-radius: var(--radius-card);
+  box-shadow: var(--shadow-card);
+  overflow: hidden;
+}
+
+/* 骨架屏动画 */
+@keyframes skeleton-pulse {
+  0%, 100% { opacity: 1; }
+  50%      { opacity: 0.4; }
+}
+
+.skeleton {
+  background: linear-gradient(90deg, #e5e7eb 25%, #f3f4f6 50%, #e5e7eb 75%);
+  background-size: 200% 100%;
+  animation: skeleton-pulse 1.5s ease-in-out infinite;
+  border-radius: var(--radius-card);
+}
+
+/* 文本截断 */
+.text-ellipsis {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.text-ellipsis-2 {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  word-break: break-all;
+}
+
+/* 通用按钮 */
+.btn-primary {
+  background: var(--color-primary);
+  color: #FFFFFF;
+  border-radius: var(--radius-btn);
+  padding: 16rpx 32rpx;
+  font-size: 28rpx;
+  font-weight: 500;
+  border: none;
+  text-align: center;
+}
+
+.btn-primary:active {
+  opacity: 0.9;
+  transform: scale(0.96);
+}
+
+.btn-secondary {
+  background: #FFFFFF;
+  color: var(--color-text-secondary);
+  border: 1px solid #e5e7eb;
+  border-radius: var(--radius-btn);
+  padding: 16rpx 32rpx;
+  font-size: 28rpx;
+  text-align: center;
+}
+
+.btn-danger {
+  background: var(--color-error);
+  color: #FFFFFF;
+  border-radius: var(--radius-btn);
+  padding: 16rpx 32rpx;
+  font-size: 28rpx;
+  border: none;
+  text-align: center;
+}
+
+/* 表单输入框 */
+.form-input {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: var(--radius-btn);
+  padding: 16rpx 24rpx;
+  font-size: 28rpx;
+  box-sizing: border-box;
+}
+
+.form-input:focus {
+  border-color: var(--color-primary);
+  outline: none;
+}
+
+.form-textarea {
+  width: 100%;
+  border: 1px solid #e5e7eb;
+  border-radius: var(--radius-btn);
+  padding: 16rpx 24rpx;
+  font-size: 28rpx;
+  box-sizing: border-box;
+  min-height: 120rpx;
+}
+
+.form-label {
+  font-size: 24rpx;
+  color: var(--color-text-secondary);
+  margin-bottom: 8rpx;
+  display: block;
+}

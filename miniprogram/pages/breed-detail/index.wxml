@@ -1,0 +1,59 @@
+<view class="page">
+
+  <view wx:if="{{loading}}" class="loading-wrap">
+    <view class="sk-block" /><view class="sk-block" />
+    <view class="sk-block" /><view class="sk-block" />
+    <view class="sk-block" /><view class="sk-block" />
+  </view>
+
+  <view wx:elif="{{error}}" class="empty-wrap">
+    <text class="empty-icon">⚠️</text>
+    <text class="empty-text">{{error}}</text>
+  </view>
+
+  <view wx:elif="{{!breed}}" class="empty-wrap">
+    <text class="empty-icon">🐾</text>
+    <text class="empty-text">品种不存在</text>
+  </view>
+
+  <view wx:else class="content">
+    <view class="breed-header">
+      <view class="back-link" bindtap="onBack">← 返回</view>
+      <view class="breed-info-row">
+        <image wx:if="{{breed.coverUrl}}" src="{{breed.coverUrl}}" mode="aspectFit" class="breed-cover" />
+        <view wx:else class="breed-cover-ph"><text class="ph-icon">🐾</text></view>
+        <view class="breed-meta">
+          <text class="breed-name">{{breed.name || '未命名'}}</text>
+          <text class="breed-desc">{{breed.description || ''}}</text>
+          <text class="breed-count">共 {{images.length}} 张图片</text>
+        </view>
+      </view>
+    </view>
+
+    <view wx:if="{{images.length === 0}}" class="empty-wrap">
+      <text class="empty-icon">🖼️</text>
+      <text class="empty-text">暂无品种图片</text>
+    </view>
+    <view wx:else class="img-grid">
+      <view wx:for="{{images}}" wx:key="id" class="img-card" data-id="{{item.id}}" bindtap="onImageTap">
+        <image wx:if="{{item.thumbnailUrl}}" src="{{item.thumbnailUrl}}" mode="aspectFit" class="img-thumb" lazy-load />
+        <view wx:else class="img-ph"><text class="ph-icon">🐾</text></view>
+        <view class="img-name-wrap"><text class="img-name">{{item.name || ''}}</text></view>
+      </view>
+    </view>
+  </view>
+
+  <!-- 图片详情卡片 -->
+  <view wx:if="{{detailImg}}" class="overlay" bindtap="onCloseDetail">
+    <view class="detail-card" catchtap="">
+      <image wx:if="{{detailImg.thumbnailUrl}}" src="{{detailImg.thumbnailUrl}}" mode="aspectFit" class="detail-img" />
+      <view wx:else class="detail-ph"><text class="ph-icon">🐾</text></view>
+      <view class="detail-info">
+        <text class="detail-name">{{detailImg.name || '未命名'}}</text>
+        <text class="detail-desc">{{detailDesc}}</text>
+      </view>
+      <view class="detail-close" bindtap="onCloseDetail">✕</view>
+    </view>
+  </view>
+
+</view>

@@ -1,0 +1,11 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/breed-detail/index"
+  ],
+  "window": {
+    "navigationBarTitleText": "石器怀旧宠物图鉴"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

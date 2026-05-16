@@ -70,7 +70,7 @@ export default function devServerPlugin() {
         try {
           // GET /api/box/series
           if (req.method === 'GET' && seg[0] === 'box' && seg[1] === 'series' && !seg[2]) {
-            const active = db.series.filter((s) => s.status === 1)
+            const active = db.series.filter((s) => s.status === 1).sort((a, b) => b.sortOrder - a.sortOrder)
             return res.end(JSON.stringify(ok(active)))
           }
           // GET /api/box/series/:id/items

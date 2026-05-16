@@ -1,0 +1,35 @@
+<!-- packageAdmin/pages/images/index.wxml — 图片管理 -->
+<admin-auth bind:authed="onAuthorized">
+  <view class="page">
+    <loading-view wx:if="{{loading}}" />
+
+    <empty-state wx:elif="{{error}}" icon="⚠️" text="{{error}}" buttonText="重试" bind:action="loadImages" />
+
+    <view wx:else>
+      <view class="toolbar">
+        <picker class="picker" mode="selector" range="{{breeds}}" range-key="name" value="{{selectedBreedIndex}}" bindchange="onBreedChange">
+          <view class="picker-display">
+            <text>{{breeds[selectedBreedIndex] ? breeds[selectedBreedIndex].name : '全部品种'}}</text>
+            <text class="picker-arrow">▼</text>
+          </view>
+        </picker>
+        <button class="btn-add" bindtap="onAdd">+ 新增图片</button>
+      </view>
+
+      <empty-state wx:if="{{images.length === 0}}" icon="🖼️" text="暂无图片" />
+
+      <view class="list" wx:else>
+        <view class="list-item" wx:for="{{images}}" wx:key="id">
+          <image class="list-thumb" src="{{item.thumbnailUrl}}" mode="aspectFill" />
+          <view class="list-info">
+            <text class="list-name">{{item.name}}</text>
+          </view>
+          <view class="list-actions">
+            <button class="btn-edit" data-id="{{item.id}}" bindtap="onEdit">编辑</button>
+            <button class="btn-delete" data-id="{{item.id}}" data-name="{{item.name}}" bindtap="onDelete">删除</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</admin-auth>

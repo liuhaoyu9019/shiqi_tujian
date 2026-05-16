@@ -1,0 +1,30 @@
+<!-- packageAdmin/pages/breeds/index.wxml — 品种管理列表 -->
+<admin-auth bind:authed="onAuthorized">
+  <view class="page">
+    <loading-view wx:if="{{loading}}" />
+
+    <empty-state wx:elif="{{error}}" icon="⚠️" text="{{error}}" buttonText="重试" bind:action="loadBreeds" />
+
+    <view wx:else>
+      <view class="toolbar">
+        <button class="btn-add" bindtap="onAdd">+ 新增品种</button>
+      </view>
+
+      <empty-state wx:if="{{breeds.length === 0}}" icon="📋" text="暂无品种，点击上方按钮新增" />
+
+      <view class="list" wx:else>
+        <view class="list-item" wx:for="{{breeds}}" wx:key="id">
+          <image class="list-cover" src="{{item.coverUrl}}" mode="aspectFill" />
+          <view class="list-info">
+            <text class="list-name">{{item.name}}</text>
+            <text class="list-desc">{{item.description}}</text>
+          </view>
+          <view class="list-actions">
+            <button class="btn-edit" data-id="{{item.id}}" bindtap="onEdit">编辑</button>
+            <button class="btn-delete" data-id="{{item.id}}" data-name="{{item.name}}" bindtap="onDelete">删除</button>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+</admin-auth>

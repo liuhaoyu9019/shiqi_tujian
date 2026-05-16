@@ -1,0 +1,26 @@
+<!-- packageAdmin/pages/breed-form/index.wxml — 品种表单 -->
+<view class="page">
+  <view class="form">
+    <view class="form-item">
+      <text class="form-label">品种名称 *</text>
+      <input class="form-input" value="{{form.name}}" placeholder="请输入品种名称" bindinput="onInputName" />
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">品种描述</text>
+      <textarea class="form-textarea" value="{{form.description}}" placeholder="请输入品种描述" bindinput="onInputDesc" />
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">封面图片</text>
+      <input class="form-input" value="{{form.coverUrl}}" placeholder="输入图片URL或点击选择" bindinput="onInputCoverUrl" />
+      <button class="btn-upload" bindtap="onChooseCover">选择图片</button>
+    </view>
+
+    <image wx:if="{{form.coverUrl}}" class="preview" src="{{form.coverUrl}}" mode="aspectFill" />
+
+    <button class="btn-submit" bindtap="onSubmit" loading="{{saving}}" disabled="{{saving}}">
+      {{isEdit ? '保存修改' : '创建品种'}}
+    </button>
+  </view>
+</view>

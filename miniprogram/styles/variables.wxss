@@ -1,0 +1,34 @@
+/* Design Token — 从 Web 端 index.css 移植，px → rpx (×2) */
+page {
+  --color-primary: #4F6EF7;
+  --color-primary-dark: #3D56D4;
+  --color-accent: #7C5CFC;
+  --color-bg: #F5F6FA;
+  --color-card: #FFFFFF;
+  --color-text: #1A1A2E;
+  --color-text-secondary: #6B7280;
+  --color-text-disabled: #9CA3AF;
+  --color-success: #10B981;
+  --color-warning: #F59E0B;
+  --color-error: #EF4444;
+  --color-rare-ssr: #F0B90B;
+  --color-rare-sr: #A855F7;
+  --color-rare-r: #3B82F6;
+  --color-rare-n: #9CA3AF;
+  --space-xs: 8rpx;
+  --space-sm: 16rpx;
+  --space-md: 24rpx;
+  --space-lg: 32rpx;
+  --space-xl: 48rpx;
+  --space-xxl: 64rpx;
+  --radius-btn: 16rpx;
+  --radius-card: 24rpx;
+  --radius-modal: 32rpx;
+  --radius-tag: 999rpx;
+  --shadow-card: 0 2rpx 6rpx rgba(0, 0, 0, 0.08);
+  --shadow-float: 0 8rpx 24rpx rgba(0, 0, 0, 0.1);
+  --shadow-modal: 0 16rpx 64rpx rgba(0, 0, 0, 0.15);
+  --font-family: 'PingFang SC', 'Microsoft YaHei', -apple-system, sans-serif;
+  --transition-fast: 150ms ease-out;
+  --transition-normal: 250ms ease-in-out;
+}

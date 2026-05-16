@@ -11,12 +11,12 @@ export default function HomePage() {
     <div className="max-w-6xl mx-auto px-4 py-6">
       <div className="relative bg-gradient-to-r from-primary via-accent to-primary-dark rounded-card overflow-hidden mb-8">
         <div className="absolute inset-0 opacity-20">
-          <div className="absolute top-4 left-8 text-7xl">{'🐾'}</div>
-          <div className="absolute bottom-2 right-8 text-7xl">{'🐾'}</div>
-          <div className="absolute top-1/2 left-1/3 text-6xl transform -translate-y-1/2">{'🐾'}</div>
+          <div className="absolute top-4 left-8 text-7xl">{'🦕'}</div>
+          <div className="absolute bottom-2 right-8 text-7xl">{'🦕'}</div>
+          <div className="absolute top-1/2 left-1/3 text-6xl transform -translate-y-1/2">{'🦕'}</div>
         </div>
         <div className="relative px-8 py-10 text-white">
-          <h1 className="text-2xl font-bold mb-2">{'🐾'} 宠物品种图鉴</h1>
+          <h1 className="text-2xl font-bold mb-2">{'🦕'} 石器怀旧宠物图鉴</h1>
           <p className="text-white/80 text-sm mb-4">探索丰富的宠物品种，了解每一个独特生命</p>
           <div className="flex gap-3 text-sm">
             <span className="bg-white/20 backdrop-blur rounded-tag px-3 py-1">官方图鉴 纯公益</span>
@@ -45,7 +45,7 @@ export default function HomePage() {
         </div>
       ) : breeds.length === 0 ? (
         <div className="text-center py-16">
-          <div className="text-5xl mb-3">{'🐾'}</div>
+          <div className="text-5xl mb-3">{'🦕'}</div>
           <p className="text-text-disabled">暂无品种数据</p>
         </div>
       ) : (
@@ -53,6 +53,12 @@ export default function HomePage() {
           {breeds.map((s) => (
             <BoxCard key={s.id} series={s} />
           ))}
+        </div>
+      )}
+
+      {!loading && (
+        <div className="text-center py-6 px-4">
+          <p className="text-xs text-gray-400 leading-relaxed">本工具为玩家自制，非官方，素材仅供怀旧参考，版权归原方所有，侵权请联系删除。</p>
         </div>
       )}
     </div>

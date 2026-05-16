@@ -1,0 +1,31 @@
+<!-- packageAdmin/pages/image-form/index.wxml — 图片表单 -->
+<view class="page">
+  <view class="form">
+    <view class="form-item">
+      <text class="form-label">图片名称 *</text>
+      <input class="form-input" value="{{form.name}}" placeholder="请输入图片名称" bindinput="onInputName" />
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">所属品种 *</text>
+      <picker mode="selector" range="{{breeds}}" range-key="name" value="{{selectedBreedIndex}}" bindchange="onBreedChange">
+        <view class="picker-display">
+          <text>{{breeds[selectedBreedIndex] ? breeds[selectedBreedIndex].name : '请选择品种'}}</text>
+          <text class="picker-arrow">▼</text>
+        </view>
+      </picker>
+    </view>
+
+    <view class="form-item">
+      <text class="form-label">图片URL</text>
+      <input class="form-input" value="{{form.thumbnailUrl}}" placeholder="输入图片URL或点击选择" bindinput="onInputUrl" />
+      <button class="btn-upload" bindtap="onChooseImage">选择图片</button>
+    </view>
+
+    <image wx:if="{{form.thumbnailUrl}}" class="preview" src="{{form.thumbnailUrl}}" mode="aspectFill" />
+
+    <button class="btn-submit" bindtap="onSubmit" loading="{{saving}}" disabled="{{saving}}">
+      {{isEdit ? '保存修改' : '创建图片'}}
+    </button>
+  </view>
+</view>

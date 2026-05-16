@@ -1,0 +1,80 @@
+<!-- packageAdmin/pages/stats/index.wxml — 访问统计 -->
+<admin-auth bind:authed="onAuthorized">
+  <view class="page">
+    <loading-view wx:if="{{loading}}" />
+
+    <view wx:elif="{{error}}" class="error-state">
+      <text class="error-text">{{error}}</text>
+      <button class="btn-retry" bindtap="loadData">重试</button>
+    </view>
+
+    <view wx:else class="content">
+      <!-- 概览指标 -->
+      <view class="section-title">概览指标</view>
+      <view class="cards-row">
+        <view class="card">
+          <text class="card-num">{{data.totalVisits}}</text>
+          <text class="card-label">总访问量</text>
+        </view>
+        <view class="card">
+          <text class="card-num">{{data.todayVisits}}</text>
+          <text class="card-label">今日PV</text>
+        </view>
+      </view>
+      <view class="cards-row">
+        <view class="card">
+          <text class="card-num">{{data.weekVisits}}</text>
+          <text class="card-label">7日PV</text>
+        </view>
+        <view class="card">
+          <text class="card-num">{{data.todayUV}}</text>
+          <text class="card-label">今日UV</text>
+        </view>
+      </view>
+      <view class="cards-row">
+        <view class="card">
+          <text class="card-num">{{data.todayIP}}</text>
+          <text class="card-label">今日IP</text>
+        </view>
+        <view class="card">
+          <text class="card-num">{{data.avgDuration}}s</text>
+          <text class="card-label">平均时长</text>
+        </view>
+      </view>
+
+      <!-- 7日趋势 -->
+      <view class="section-title">7日趋势</view>
+      <view class="chart-bars">
+        <view class="bar-item" wx:for="{{data.trend}}" wx:key="date">
+          <view class="bar" style="height: {{item.count / maxTrendCount * 100}}%">
+            <text class="bar-val">{{item.count}}</text>
+          </view>
+          <text class="bar-label">{{item.dayOfWeek}}</text>
+        </view>
+      </view>
+
+      <!-- 页面排行 -->
+      <view class="section-title">页面排行</view>
+      <view class="rank-list">
+        <view class="rank-item" wx:for="{{data.pageRank}}" wx:key="page">
+          <text class="rank-name">{{item.page}}</text>
+          <view class="rank-bar-bg">
+            <view class="rank-bar-fill" style="width: {{item.count / maxPageRankCount * 100}}%"></view>
+          </view>
+          <text class="rank-count">{{item.count}}</text>
+        </view>
+      </view>
+
+      <!-- 24小时分布 -->
+      <view class="section-title">24小时分布</view>
+      <view class="chart-columns">
+        <view class="col-item" wx:for="{{data.hourlyDist}}" wx:key="hour">
+          <view class="col" style="height: {{item.count / maxHourlyCount * 100}}%">
+            <text class="col-val" wx:if="{{item.count > 0}}">{{item.count}}</text>
+          </view>
+          <text class="col-label">{{item.hour}}</text>
+        </view>
+      </view>
+    </view>
+  </view>
+</admin-auth>

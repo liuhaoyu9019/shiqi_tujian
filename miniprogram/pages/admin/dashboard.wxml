@@ -1,0 +1,35 @@
+<!-- pages/admin/dashboard.wxml -- 数据看板 -->
+<view class="page">
+
+  <!-- 鉴权门禁 -->
+  <view wx:if="{{!authed}}" class="auth-wrap">
+    <view class="auth-card">
+      <text class="auth-title">管理员验证</text>
+      <input class="auth-input" password placeholder="请输入管理员Token" value="{{tokenInput}}" bindinput="onTokenInput" />
+      <button class="auth-btn" bindtap="onVerify" loading="{{verifying}}">验证</button>
+      <text wx:if="{{authError}}" class="auth-err">{{authError}}</text>
+    </view>
+  </view>
+
+  <!-- 加载态 -->
+  <view wx:elif="{{loading}}" class="loading-wrap">
+    <view wx:for="{{[1,2,3]}}" wx:key="*this" class="sk-card" />
+  </view>
+
+  <!-- 统计卡片 -->
+  <view wx:else class="cards">
+    <view class="card">
+      <text class="card-num">{{breedCount}}</text>
+      <text class="card-label">品种总数</text>
+    </view>
+    <view class="card">
+      <text class="card-num">{{todayUV}}</text>
+      <text class="card-label">今日UV</text>
+    </view>
+    <view class="card">
+      <text class="card-num">{{itemCount}}</text>
+      <text class="card-label">总访问量</text>
+    </view>
+  </view>
+
+</view>
