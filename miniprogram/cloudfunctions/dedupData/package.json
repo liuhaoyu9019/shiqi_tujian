@@ -1,0 +1,1 @@
+{"name":"dedupData","version":"1.0.0","description":"删除数据库中重名的图片记录","main":"index.js","dependencies":{"wx-server-sdk":"latest"}}

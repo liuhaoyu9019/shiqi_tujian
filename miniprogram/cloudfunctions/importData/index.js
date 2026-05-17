@@ -6,7 +6,7 @@ var BREEDS = [
   {
     "id": 6,
     "name": "乌力系",
-    "coverUrl": "http://localhost:5173/series-images/00_乌力系/100250_乌力.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/100250_乌力.gif",
     "description": "乌力系",
     "status": 1,
     "sortOrder": 99,
@@ -16,7 +16,7 @@ var BREEDS = [
   {
     "id": 7,
     "name": "布伊系",
-    "coverUrl": "http://localhost:5173/series-images/01_布伊系/100254_布比.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/01_布伊系/100254_布比.gif",
     "description": "布伊系",
     "status": 1,
     "sortOrder": 8,
@@ -26,7 +26,7 @@ var BREEDS = [
   {
     "id": 8,
     "name": "特洛昆系",
-    "coverUrl": "http://localhost:5173/series-images/02_特洛昆系/100275_阿哥亚.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/02_特洛昆系/100275_阿哥亚.gif",
     "description": "特洛昆系",
     "status": 1,
     "sortOrder": 10,
@@ -36,7 +36,7 @@ var BREEDS = [
   {
     "id": 9,
     "name": "兔子系",
-    "coverUrl": "http://localhost:5173/series-images/03_兔子系/100291_克雷尔.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/03_兔子系/100291_克雷尔.gif",
     "description": "兔子系",
     "status": 1,
     "sortOrder": 12,
@@ -46,7 +46,7 @@ var BREEDS = [
   {
     "id": 10,
     "name": "凯比系",
-    "coverUrl": "http://localhost:5173/series-images/04_凯比系/100295_卡比特.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/04_凯比系/100295_卡比特.gif",
     "description": "凯比系",
     "status": 1,
     "sortOrder": 14,
@@ -56,7 +56,7 @@ var BREEDS = [
   {
     "id": 11,
     "name": "布克系",
-    "coverUrl": "http://localhost:5173/series-images/05_布克系/100319_修宝.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/100319_修宝.gif",
     "description": "布克系",
     "status": 1,
     "sortOrder": 16,
@@ -66,7 +66,7 @@ var BREEDS = [
   {
     "id": 12,
     "name": "加美系",
-    "coverUrl": "http://localhost:5173/series-images/06_加美系/100259_加美.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/06_加美系/100259_加美.gif",
     "description": "加美系",
     "status": 1,
     "sortOrder": 18,
@@ -76,7 +76,7 @@ var BREEDS = [
   {
     "id": 13,
     "name": "威威系",
-    "coverUrl": "http://localhost:5173/series-images/07_威威系/100263_乌宝宝.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/07_威威系/100263_乌宝宝.gif",
     "description": "威威系",
     "status": 1,
     "sortOrder": 20,
@@ -86,7 +86,7 @@ var BREEDS = [
   {
     "id": 14,
     "name": "毒蛙系",
-    "coverUrl": "http://localhost:5173/series-images/08_毒蛙系/100343_奇卡洛斯.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/08_毒蛙系/100343_奇卡洛斯.gif",
     "description": "毒蛙系",
     "status": 1,
     "sortOrder": 22,
@@ -96,7 +96,7 @@ var BREEDS = [
   {
     "id": 15,
     "name": "飞龙系",
-    "coverUrl": "http://localhost:5173/series-images/09_飞龙系/100359_帖拉格恩.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/09_飞龙系/100359_帖拉格恩.gif",
     "description": "飞龙系",
     "status": 1,
     "sortOrder": 24,
@@ -106,7 +106,7 @@ var BREEDS = [
   {
     "id": 16,
     "name": "大舌头系",
-    "coverUrl": "http://localhost:5173/series-images/10_大舌头系/100267_贝洛恩.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/10_大舌头系/100267_贝洛恩.gif",
     "description": "大舌头系",
     "status": 1,
     "sortOrder": 26,
@@ -116,7 +116,7 @@ var BREEDS = [
   {
     "id": 17,
     "name": "乌龟系",
-    "coverUrl": "http://localhost:5173/series-images/11_乌龟系/100271_龟之盾.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/11_乌龟系/100271_龟之盾.gif",
     "description": "乌龟系",
     "status": 1,
     "sortOrder": 28,
@@ -126,7 +126,7 @@ var BREEDS = [
   {
     "id": 18,
     "name": "鲨鱼系",
-    "coverUrl": "http://localhost:5173/series-images/12_鲨鱼系/100339_克邦凯斯.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/12_鲨鱼系/100339_克邦凯斯.gif",
     "description": "鲨鱼系",
     "status": 1,
     "sortOrder": 30,
@@ -136,7 +136,7 @@ var BREEDS = [
   {
     "id": 19,
     "name": "海主人系",
-    "coverUrl": "http://localhost:5173/series-images/13_海主人系/100347_邦奇.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/13_海主人系/100347_邦奇.gif",
     "description": "海主人系",
     "status": 1,
     "sortOrder": 32,
@@ -146,7 +146,7 @@ var BREEDS = [
   {
     "id": 20,
     "name": "猪头鱼系",
-    "coverUrl": "http://localhost:5173/series-images/14_猪头鱼系/100379_史多拉奇顿.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/14_猪头鱼系/100379_史多拉奇顿.gif",
     "description": "猪头鱼系",
     "status": 1,
     "sortOrder": 34,
@@ -156,7 +156,7 @@ var BREEDS = [
   {
     "id": 21,
     "name": "呼拔拔系",
-    "coverUrl": "http://localhost:5173/series-images/15_呼拔拔系/100279_拉奇鲁哥.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/100279_拉奇鲁哥.gif",
     "description": "呼拔拔系",
     "status": 1,
     "sortOrder": 36,
@@ -166,7 +166,7 @@ var BREEDS = [
   {
     "id": 22,
     "name": "人龙系",
-    "coverUrl": "http://localhost:5173/series-images/16_人龙系/100287_利则诺顿.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/100287_利则诺顿.gif",
     "description": "人龙系",
     "status": 1,
     "sortOrder": 38,
@@ -176,7 +176,7 @@ var BREEDS = [
   {
     "id": 23,
     "name": "犀牛系",
-    "coverUrl": "http://localhost:5173/series-images/17_犀牛系/100335_多利诺布斯.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/17_犀牛系/100335_多利诺布斯.gif",
     "description": "犀牛系",
     "status": 1,
     "sortOrder": 40,
@@ -186,7 +186,7 @@ var BREEDS = [
   {
     "id": 24,
     "name": "雷龙系",
-    "coverUrl": "http://localhost:5173/series-images/18_雷龙系/100351_布洛多斯.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/18_雷龙系/100351_布洛多斯.gif",
     "description": "雷龙系",
     "status": 1,
     "sortOrder": 42,
@@ -196,7 +196,7 @@ var BREEDS = [
   {
     "id": 25,
     "name": "暴龙系",
-    "coverUrl": "http://localhost:5173/series-images/19_暴龙系/100371_奥卡洛斯.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/19_暴龙系/100371_奥卡洛斯.gif",
     "description": "暴龙系",
     "status": 1,
     "sortOrder": 44,
@@ -206,7 +206,7 @@ var BREEDS = [
   {
     "id": 26,
     "name": "水龙系",
-    "coverUrl": "http://localhost:5173/series-images/20_水龙系/100384_邦洛洛克斯.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/20_水龙系/100384_邦洛洛克斯.gif",
     "description": "水龙系",
     "status": 1,
     "sortOrder": 46,
@@ -216,7 +216,7 @@ var BREEDS = [
   {
     "id": 27,
     "name": "猩猩系",
-    "coverUrl": "http://localhost:5173/series-images/21_猩猩系/100307_格尔顿.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/21_猩猩系/100307_格尔顿.gif",
     "description": "猩猩系",
     "status": 1,
     "sortOrder": 48,
@@ -226,7 +226,7 @@ var BREEDS = [
   {
     "id": 28,
     "name": "茄子系",
-    "coverUrl": "http://localhost:5173/series-images/22_茄子系/100323_卡克尔.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/22_茄子系/100323_卡克尔.gif",
     "description": "茄子系系列",
     "status": 1,
     "sortOrder": 50,
@@ -236,7 +236,7 @@ var BREEDS = [
   {
     "id": 29,
     "name": "老虎系",
-    "coverUrl": "http://localhost:5173/series-images/23_老虎系/100327_贝鲁卡.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/23_老虎系/100327_贝鲁卡.gif",
     "description": "老虎系",
     "status": 1,
     "sortOrder": 52,
@@ -246,7 +246,7 @@ var BREEDS = [
   {
     "id": 30,
     "name": "长毛象系",
-    "coverUrl": "http://localhost:5173/series-images/24_长毛象系/100355_玛恩摩.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/24_长毛象系/100355_玛恩摩.gif",
     "description": "长毛象系",
     "status": 1,
     "sortOrder": 54,
@@ -256,7 +256,7 @@ var BREEDS = [
   {
     "id": 31,
     "name": "鸡系",
-    "coverUrl": "http://localhost:5173/series-images/25_鸡系/100367_火鸡.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/100367_火鸡.gif",
     "description": "鸡系",
     "status": 1,
     "sortOrder": 56,
@@ -266,7 +266,7 @@ var BREEDS = [
   {
     "id": 32,
     "name": "羊系",
-    "coverUrl": "http://localhost:5173/series-images/26_羊系/100375_布伊德.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/26_羊系/100375_布伊德.gif",
     "description": "羊系",
     "status": 1,
     "sortOrder": 58,
@@ -276,7 +276,7 @@ var BREEDS = [
   {
     "id": 33,
     "name": "穿山甲系",
-    "coverUrl": "http://localhost:5173/series-images/27_穿山甲系/100283_卡达鲁卡斯.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/100283_卡达鲁卡斯.gif",
     "description": "穿山甲系",
     "status": 1,
     "sortOrder": 60,
@@ -296,7 +296,7 @@ var BREEDS = [
   {
     "id": 35,
     "name": "熊系",
-    "coverUrl": "http://localhost:5173/series-images/30_熊系/101444_库玛斯.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/30_熊系/101444_库玛斯.gif",
     "description": "熊系",
     "status": 1,
     "sortOrder": 64,
@@ -306,7 +306,7 @@ var BREEDS = [
   {
     "id": 36,
     "name": "三头蛇",
-    "coverUrl": "http://localhost:5173/series-images/31_三头蛇/101448_史奈克特.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/31_三头蛇/101448_史奈克特.gif",
     "description": "三头蛇",
     "status": 1,
     "sortOrder": 66,
@@ -316,7 +316,7 @@ var BREEDS = [
   {
     "id": 37,
     "name": "海龙系",
-    "coverUrl": "http://localhost:5173/series-images/32_海龙系/101452_毕格艾斯.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/32_海龙系/101452_毕格艾斯.gif",
     "description": "海龙系",
     "status": 1,
     "sortOrder": 68,
@@ -326,7 +326,7 @@ var BREEDS = [
   {
     "id": 38,
     "name": "火山龟系",
-    "coverUrl": "http://localhost:5173/series-images/33_火山龟系/101456_法兹蒙特.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/33_火山龟系/101456_法兹蒙特.gif",
     "description": "火山龟系",
     "status": 1,
     "sortOrder": 70,
@@ -336,7 +336,7 @@ var BREEDS = [
   {
     "id": 39,
     "name": "小蜥蜴系",
-    "coverUrl": "http://localhost:5173/series-images/34_小蜥蜴系/101460_利西亚.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/34_小蜥蜴系/101460_利西亚.gif",
     "description": "小蜥蜴系",
     "status": 1,
     "sortOrder": 72,
@@ -356,7 +356,7 @@ var BREEDS = [
   {
     "id": 41,
     "name": "青蛙系",
-    "coverUrl": "http://localhost:5173/series-images/36_青蛙系/101468_迪亚古斯.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/36_青蛙系/101468_迪亚古斯.gif",
     "description": "青蛙系",
     "status": 1,
     "sortOrder": 76,
@@ -366,7 +366,7 @@ var BREEDS = [
   {
     "id": 42,
     "name": "飞机头系",
-    "coverUrl": "http://localhost:5173/series-images/37_飞机头系/101472_西修.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/37_飞机头系/101472_西修.gif",
     "description": "飞机头系",
     "status": 1,
     "sortOrder": 78,
@@ -376,7 +376,7 @@ var BREEDS = [
   {
     "id": 43,
     "name": "飞马系",
-    "coverUrl": "http://localhost:5173/series-images/38_飞马系/101476_雅特拉斯.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/38_飞马系/101476_雅特拉斯.gif",
     "description": "飞马系",
     "status": 1,
     "sortOrder": 80,
@@ -386,7 +386,7 @@ var BREEDS = [
   {
     "id": 44,
     "name": "刺球系",
-    "coverUrl": "http://localhost:5173/series-images/39_刺球系/101481_邦欧里.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/39_刺球系/101481_邦欧里.gif",
     "description": "刺球系",
     "status": 1,
     "sortOrder": 82,
@@ -396,7 +396,7 @@ var BREEDS = [
   {
     "id": 45,
     "name": "剑龙系",
-    "coverUrl": "http://localhost:5173/series-images/40_剑龙系/101485_伊亚欧莱.gif",
+    "coverUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/40_剑龙系/101485_伊亚欧莱.gif",
     "description": "剑龙系",
     "status": 1,
     "sortOrder": 84,
@@ -410,7 +410,7 @@ var IMAGES = [
     "id": 10,
     "seriesId": 6,
     "name": "乌力",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/100250_乌力.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/100250_乌力.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -418,7 +418,7 @@ var IMAGES = [
     "id": 11,
     "seriesId": 6,
     "name": "乌力乌力",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/100251_乌力乌力.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/100251_乌力乌力.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -426,7 +426,7 @@ var IMAGES = [
     "id": 12,
     "seriesId": 6,
     "name": "乌力斯坦",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/100252_乌力斯坦.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/100252_乌力斯坦.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -434,7 +434,7 @@ var IMAGES = [
     "id": 13,
     "seriesId": 6,
     "name": "乌力布鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/100253_乌力布鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/100253_乌力布鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -442,7 +442,7 @@ var IMAGES = [
     "id": 14,
     "seriesId": 6,
     "name": "黑乌力",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/100388_黑乌力.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/100388_黑乌力.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -450,7 +450,7 @@ var IMAGES = [
     "id": 15,
     "seriesId": 6,
     "name": "扑满乌力",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/100820_扑满乌力.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/100820_扑满乌力.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -458,7 +458,7 @@ var IMAGES = [
     "id": 16,
     "seriesId": 6,
     "name": "乌力莱德",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/100821_乌力莱德.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/100821_乌力莱德.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -466,7 +466,7 @@ var IMAGES = [
     "id": 17,
     "seriesId": 6,
     "name": "乌力固力",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/100822_乌力固力.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/100822_乌力固力.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -474,7 +474,7 @@ var IMAGES = [
     "id": 18,
     "seriesId": 6,
     "name": "特雷克洛",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/101542_特雷克洛.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/101542_特雷克洛.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -482,7 +482,7 @@ var IMAGES = [
     "id": 19,
     "seriesId": 6,
     "name": "特雷吉洛",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/101543_特雷吉洛.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/101543_特雷吉洛.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -490,7 +490,7 @@ var IMAGES = [
     "id": 20,
     "seriesId": 6,
     "name": "华可洛",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/101544_华可洛.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/101544_华可洛.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -498,7 +498,7 @@ var IMAGES = [
     "id": 21,
     "seriesId": 6,
     "name": "华雷斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/101545_华雷斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/101545_华雷斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -506,7 +506,7 @@ var IMAGES = [
     "id": 22,
     "seriesId": 6,
     "name": "多瑞里",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/101707_多瑞里.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/101707_多瑞里.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -514,7 +514,7 @@ var IMAGES = [
     "id": 23,
     "seriesId": 6,
     "name": "贝瑞里",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/101708_贝瑞里.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/101708_贝瑞里.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -522,7 +522,7 @@ var IMAGES = [
     "id": 24,
     "seriesId": 6,
     "name": "乌力王",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/101766_乌力王.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/101766_乌力王.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -530,7 +530,7 @@ var IMAGES = [
     "id": 25,
     "seriesId": 6,
     "name": "黑乌力王",
-    "thumbnailUrl": "http://localhost:5173/series-images/00_乌力系/101871_黑乌力王.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/00_乌力系/101871_黑乌力王.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -538,7 +538,7 @@ var IMAGES = [
     "id": 26,
     "seriesId": 7,
     "name": "布比",
-    "thumbnailUrl": "http://localhost:5173/series-images/01_布伊系/100254_布比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/01_布伊系/100254_布比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -546,7 +546,7 @@ var IMAGES = [
     "id": 27,
     "seriesId": 7,
     "name": "金布伊",
-    "thumbnailUrl": "http://localhost:5173/series-images/01_布伊系/100255_金布伊.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/01_布伊系/100255_金布伊.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -554,7 +554,7 @@ var IMAGES = [
     "id": 28,
     "seriesId": 7,
     "name": "布伊",
-    "thumbnailUrl": "http://localhost:5173/series-images/01_布伊系/100256_布伊.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/01_布伊系/100256_布伊.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -562,7 +562,7 @@ var IMAGES = [
     "id": 29,
     "seriesId": 7,
     "name": "布伊比",
-    "thumbnailUrl": "http://localhost:5173/series-images/01_布伊系/100257_布伊比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/01_布伊系/100257_布伊比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -570,7 +570,7 @@ var IMAGES = [
     "id": 30,
     "seriesId": 7,
     "name": "卡布伊",
-    "thumbnailUrl": "http://localhost:5173/series-images/01_布伊系/100258_卡布伊.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/01_布伊系/100258_卡布伊.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -578,7 +578,7 @@ var IMAGES = [
     "id": 31,
     "seriesId": 7,
     "name": "布依布鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/01_布伊系/100823_布依布鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/01_布伊系/100823_布依布鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -586,7 +586,7 @@ var IMAGES = [
     "id": 32,
     "seriesId": 7,
     "name": "布依布依",
-    "thumbnailUrl": "http://localhost:5173/series-images/01_布伊系/100824_布依布依.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/01_布伊系/100824_布依布依.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -594,7 +594,7 @@ var IMAGES = [
     "id": 33,
     "seriesId": 7,
     "name": "布依胖",
-    "thumbnailUrl": "http://localhost:5173/series-images/01_布伊系/100825_布依胖.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/01_布伊系/100825_布依胖.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -602,7 +602,7 @@ var IMAGES = [
     "id": 34,
     "seriesId": 7,
     "name": "布伊酷",
-    "thumbnailUrl": "http://localhost:5173/series-images/01_布伊系/101876_布伊酷.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/01_布伊系/101876_布伊酷.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -610,7 +610,7 @@ var IMAGES = [
     "id": 35,
     "seriesId": 8,
     "name": "阿哥亚",
-    "thumbnailUrl": "http://localhost:5173/series-images/02_特洛昆系/100275_阿哥亚.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/02_特洛昆系/100275_阿哥亚.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -618,7 +618,7 @@ var IMAGES = [
     "id": 36,
     "seriesId": 8,
     "name": "尼可斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/02_特洛昆系/100276_尼可斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/02_特洛昆系/100276_尼可斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -626,7 +626,7 @@ var IMAGES = [
     "id": 37,
     "seriesId": 8,
     "name": "特洛昆",
-    "thumbnailUrl": "http://localhost:5173/series-images/02_特洛昆系/100277_特洛昆.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/02_特洛昆系/100277_特洛昆.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -634,7 +634,7 @@ var IMAGES = [
     "id": 38,
     "seriesId": 8,
     "name": "达克尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/02_特洛昆系/100278_达克尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/02_特洛昆系/100278_达克尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -642,7 +642,7 @@ var IMAGES = [
     "id": 39,
     "seriesId": 8,
     "name": "柏克尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/02_特洛昆系/100393_柏克尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/02_特洛昆系/100393_柏克尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -650,7 +650,7 @@ var IMAGES = [
     "id": 40,
     "seriesId": 8,
     "name": "尼加斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/02_特洛昆系/100842_尼加斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/02_特洛昆系/100842_尼加斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -658,7 +658,7 @@ var IMAGES = [
     "id": 41,
     "seriesId": 8,
     "name": "尼基斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/02_特洛昆系/100843_尼基斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/02_特洛昆系/100843_尼基斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -666,7 +666,7 @@ var IMAGES = [
     "id": 42,
     "seriesId": 8,
     "name": "特洛可斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/02_特洛昆系/100844_特洛可斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/02_特洛昆系/100844_特洛可斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -674,7 +674,7 @@ var IMAGES = [
     "id": 43,
     "seriesId": 9,
     "name": "克雷尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/03_兔子系/100291_克雷尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/03_兔子系/100291_克雷尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -682,7 +682,7 @@ var IMAGES = [
     "id": 44,
     "seriesId": 9,
     "name": "克克尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/03_兔子系/100292_克克尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/03_兔子系/100292_克克尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -690,7 +690,7 @@ var IMAGES = [
     "id": 45,
     "seriesId": 9,
     "name": "克洛尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/03_兔子系/100293_克洛尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/03_兔子系/100293_克洛尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -698,7 +698,7 @@ var IMAGES = [
     "id": 46,
     "seriesId": 9,
     "name": "里斯基",
-    "thumbnailUrl": "http://localhost:5173/series-images/03_兔子系/100294_里斯基.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/03_兔子系/100294_里斯基.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -706,7 +706,7 @@ var IMAGES = [
     "id": 47,
     "seriesId": 9,
     "name": "克拉尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/03_兔子系/100852_克拉尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/03_兔子系/100852_克拉尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -714,7 +714,7 @@ var IMAGES = [
     "id": 48,
     "seriesId": 9,
     "name": "拉斯基",
-    "thumbnailUrl": "http://localhost:5173/series-images/03_兔子系/100853_拉斯基.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/03_兔子系/100853_拉斯基.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -722,7 +722,7 @@ var IMAGES = [
     "id": 49,
     "seriesId": 9,
     "name": "里拉拉",
-    "thumbnailUrl": "http://localhost:5173/series-images/03_兔子系/100854_里拉拉.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/03_兔子系/100854_里拉拉.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -730,7 +730,7 @@ var IMAGES = [
     "id": 50,
     "seriesId": 9,
     "name": "克达达",
-    "thumbnailUrl": "http://localhost:5173/series-images/03_兔子系/100855_克达达.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/03_兔子系/100855_克达达.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -738,7 +738,7 @@ var IMAGES = [
     "id": 51,
     "seriesId": 10,
     "name": "卡比特",
-    "thumbnailUrl": "http://localhost:5173/series-images/04_凯比系/100295_卡比特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/04_凯比系/100295_卡比特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -746,7 +746,7 @@ var IMAGES = [
     "id": 52,
     "seriesId": 10,
     "name": "凯比",
-    "thumbnailUrl": "http://localhost:5173/series-images/04_凯比系/100296_凯比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/04_凯比系/100296_凯比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -754,7 +754,7 @@ var IMAGES = [
     "id": 53,
     "seriesId": 10,
     "name": "昆伊",
-    "thumbnailUrl": "http://localhost:5173/series-images/04_凯比系/100297_昆伊.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/04_凯比系/100297_昆伊.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -762,7 +762,7 @@ var IMAGES = [
     "id": 54,
     "seriesId": 10,
     "name": "凯比特",
-    "thumbnailUrl": "http://localhost:5173/series-images/04_凯比系/100298_凯比特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/04_凯比系/100298_凯比特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -770,7 +770,7 @@ var IMAGES = [
     "id": 55,
     "seriesId": 10,
     "name": "卡卡特",
-    "thumbnailUrl": "http://localhost:5173/series-images/04_凯比系/100856_卡卡特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/04_凯比系/100856_卡卡特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -778,7 +778,7 @@ var IMAGES = [
     "id": 56,
     "seriesId": 10,
     "name": "昆依特",
-    "thumbnailUrl": "http://localhost:5173/series-images/04_凯比系/100857_昆依特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/04_凯比系/100857_昆依特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -786,7 +786,7 @@ var IMAGES = [
     "id": 57,
     "seriesId": 10,
     "name": "比特",
-    "thumbnailUrl": "http://localhost:5173/series-images/04_凯比系/100858_比特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/04_凯比系/100858_比特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -794,7 +794,7 @@ var IMAGES = [
     "id": 58,
     "seriesId": 10,
     "name": "可卡特",
-    "thumbnailUrl": "http://localhost:5173/series-images/04_凯比系/100859_可卡特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/04_凯比系/100859_可卡特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -802,7 +802,7 @@ var IMAGES = [
     "id": 59,
     "seriesId": 11,
     "name": "修宝",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/100319_修宝.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/100319_修宝.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -810,7 +810,7 @@ var IMAGES = [
     "id": 60,
     "seriesId": 11,
     "name": "卡拉宝斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/100320_卡拉宝斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/100320_卡拉宝斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -818,7 +818,7 @@ var IMAGES = [
     "id": 61,
     "seriesId": 11,
     "name": "布克布克",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/100321_布克布克.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/100321_布克布克.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -826,7 +826,7 @@ var IMAGES = [
     "id": 62,
     "seriesId": 11,
     "name": "多洛加",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/100322_多洛加.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/100322_多洛加.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -834,7 +834,7 @@ var IMAGES = [
     "id": 63,
     "seriesId": 11,
     "name": "布鲁宝",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/100395_布鲁宝.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/100395_布鲁宝.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -842,7 +842,7 @@ var IMAGES = [
     "id": 64,
     "seriesId": 11,
     "name": "蓝宝",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/100864_蓝宝.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/100864_蓝宝.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -850,7 +850,7 @@ var IMAGES = [
     "id": 65,
     "seriesId": 11,
     "name": "瑞德宝",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/100865_瑞德宝.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/100865_瑞德宝.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -858,7 +858,7 @@ var IMAGES = [
     "id": 66,
     "seriesId": 11,
     "name": "毛宝",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/100866_毛宝.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/100866_毛宝.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -866,7 +866,7 @@ var IMAGES = [
     "id": 67,
     "seriesId": 11,
     "name": "塔克",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/101550_塔克.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/101550_塔克.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -874,7 +874,7 @@ var IMAGES = [
     "id": 68,
     "seriesId": 11,
     "name": "奥特普",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/101551_奥特普.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/101551_奥特普.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -882,7 +882,7 @@ var IMAGES = [
     "id": 69,
     "seriesId": 11,
     "name": "斯达克",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/101715_斯达克.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/101715_斯达克.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -890,7 +890,7 @@ var IMAGES = [
     "id": 70,
     "seriesId": 11,
     "name": "西斯达",
-    "thumbnailUrl": "http://localhost:5173/series-images/05_布克系/101716_西斯达.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/05_布克系/101716_西斯达.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -898,7 +898,7 @@ var IMAGES = [
     "id": 71,
     "seriesId": 12,
     "name": "加美",
-    "thumbnailUrl": "http://localhost:5173/series-images/06_加美系/100259_加美.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/06_加美系/100259_加美.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -906,7 +906,7 @@ var IMAGES = [
     "id": 72,
     "seriesId": 12,
     "name": "加比",
-    "thumbnailUrl": "http://localhost:5173/series-images/06_加美系/100260_加比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/06_加美系/100260_加比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -914,7 +914,7 @@ var IMAGES = [
     "id": 73,
     "seriesId": 12,
     "name": "加比奥",
-    "thumbnailUrl": "http://localhost:5173/series-images/06_加美系/100261_加比奥.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/06_加美系/100261_加比奥.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -922,7 +922,7 @@ var IMAGES = [
     "id": 74,
     "seriesId": 12,
     "name": "加斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/06_加美系/100262_加斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/06_加美系/100262_加斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -930,7 +930,7 @@ var IMAGES = [
     "id": 75,
     "seriesId": 12,
     "name": "加加",
-    "thumbnailUrl": "http://localhost:5173/series-images/06_加美系/100826_加加.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/06_加美系/100826_加加.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -938,7 +938,7 @@ var IMAGES = [
     "id": 76,
     "seriesId": 12,
     "name": "加斯奥",
-    "thumbnailUrl": "http://localhost:5173/series-images/06_加美系/100827_加斯奥.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/06_加美系/100827_加斯奥.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -946,7 +946,7 @@ var IMAGES = [
     "id": 77,
     "seriesId": 12,
     "name": "加格雷依",
-    "thumbnailUrl": "http://localhost:5173/series-images/06_加美系/100828_加格雷依.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/06_加美系/100828_加格雷依.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -954,7 +954,7 @@ var IMAGES = [
     "id": 78,
     "seriesId": 12,
     "name": "比比加",
-    "thumbnailUrl": "http://localhost:5173/series-images/06_加美系/100829_比比加.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/06_加美系/100829_比比加.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -962,7 +962,7 @@ var IMAGES = [
     "id": 79,
     "seriesId": 12,
     "name": "史克杰",
-    "thumbnailUrl": "http://localhost:5173/series-images/06_加美系/101709_史克杰.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/06_加美系/101709_史克杰.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -970,7 +970,7 @@ var IMAGES = [
     "id": 80,
     "seriesId": 12,
     "name": "史菲洛",
-    "thumbnailUrl": "http://localhost:5173/series-images/06_加美系/101710_史菲洛.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/06_加美系/101710_史菲洛.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -978,7 +978,7 @@ var IMAGES = [
     "id": 81,
     "seriesId": 13,
     "name": "乌宝宝",
-    "thumbnailUrl": "http://localhost:5173/series-images/07_威威系/100263_乌宝宝.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/07_威威系/100263_乌宝宝.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -986,7 +986,7 @@ var IMAGES = [
     "id": 82,
     "seriesId": 13,
     "name": "威威",
-    "thumbnailUrl": "http://localhost:5173/series-images/07_威威系/100264_威威.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/07_威威系/100264_威威.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -994,7 +994,7 @@ var IMAGES = [
     "id": 83,
     "seriesId": 13,
     "name": "乌卡鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/07_威威系/100265_乌卡鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/07_威威系/100265_乌卡鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1002,7 +1002,7 @@ var IMAGES = [
     "id": 84,
     "seriesId": 13,
     "name": "威伯",
-    "thumbnailUrl": "http://localhost:5173/series-images/07_威威系/100266_威伯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/07_威威系/100266_威伯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1010,7 +1010,7 @@ var IMAGES = [
     "id": 85,
     "seriesId": 13,
     "name": "乌宝依",
-    "thumbnailUrl": "http://localhost:5173/series-images/07_威威系/100830_乌宝依.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/07_威威系/100830_乌宝依.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1018,7 +1018,7 @@ var IMAGES = [
     "id": 86,
     "seriesId": 13,
     "name": "威斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/07_威威系/100831_威斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/07_威威系/100831_威斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1026,7 +1026,7 @@ var IMAGES = [
     "id": 87,
     "seriesId": 13,
     "name": "威比",
-    "thumbnailUrl": "http://localhost:5173/series-images/07_威威系/100832_威比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/07_威威系/100832_威比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1034,7 +1034,7 @@ var IMAGES = [
     "id": 88,
     "seriesId": 13,
     "name": "乌拉拉",
-    "thumbnailUrl": "http://localhost:5173/series-images/07_威威系/100833_乌拉拉.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/07_威威系/100833_乌拉拉.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1042,7 +1042,7 @@ var IMAGES = [
     "id": 89,
     "seriesId": 14,
     "name": "奇卡洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/08_毒蛙系/100343_奇卡洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/08_毒蛙系/100343_奇卡洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1050,7 +1050,7 @@ var IMAGES = [
     "id": 90,
     "seriesId": 14,
     "name": "奇娜",
-    "thumbnailUrl": "http://localhost:5173/series-images/08_毒蛙系/100344_奇娜.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/08_毒蛙系/100344_奇娜.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1058,7 +1058,7 @@ var IMAGES = [
     "id": 91,
     "seriesId": 14,
     "name": "奇卡宝斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/08_毒蛙系/100345_奇卡宝斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/08_毒蛙系/100345_奇卡宝斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1066,7 +1066,7 @@ var IMAGES = [
     "id": 92,
     "seriesId": 14,
     "name": "卡卡金宝",
-    "thumbnailUrl": "http://localhost:5173/series-images/08_毒蛙系/100346_卡卡金宝.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/08_毒蛙系/100346_卡卡金宝.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1074,7 +1074,7 @@ var IMAGES = [
     "id": 93,
     "seriesId": 14,
     "name": "尤里蛙",
-    "thumbnailUrl": "http://localhost:5173/series-images/08_毒蛙系/100883_尤里蛙.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/08_毒蛙系/100883_尤里蛙.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1082,7 +1082,7 @@ var IMAGES = [
     "id": 94,
     "seriesId": 14,
     "name": "裘里蛙",
-    "thumbnailUrl": "http://localhost:5173/series-images/08_毒蛙系/100884_裘里蛙.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/08_毒蛙系/100884_裘里蛙.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1090,7 +1090,7 @@ var IMAGES = [
     "id": 95,
     "seriesId": 14,
     "name": "艾尔蛙",
-    "thumbnailUrl": "http://localhost:5173/series-images/08_毒蛙系/100885_艾尔蛙.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/08_毒蛙系/100885_艾尔蛙.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1098,7 +1098,7 @@ var IMAGES = [
     "id": 96,
     "seriesId": 14,
     "name": "里昂蛙",
-    "thumbnailUrl": "http://localhost:5173/series-images/08_毒蛙系/100886_里昂蛙.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/08_毒蛙系/100886_里昂蛙.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1106,7 +1106,7 @@ var IMAGES = [
     "id": 97,
     "seriesId": 14,
     "name": "贝路卡",
-    "thumbnailUrl": "http://localhost:5173/series-images/08_毒蛙系/101711_贝路卡.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/08_毒蛙系/101711_贝路卡.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1114,7 +1114,7 @@ var IMAGES = [
     "id": 98,
     "seriesId": 14,
     "name": "奇路卡",
-    "thumbnailUrl": "http://localhost:5173/series-images/08_毒蛙系/101712_奇路卡.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/08_毒蛙系/101712_奇路卡.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1122,7 +1122,7 @@ var IMAGES = [
     "id": 99,
     "seriesId": 15,
     "name": "帖拉格恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/09_飞龙系/100359_帖拉格恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/09_飞龙系/100359_帖拉格恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1130,7 +1130,7 @@ var IMAGES = [
     "id": 100,
     "seriesId": 15,
     "name": "洛卡伦恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/09_飞龙系/100360_洛卡伦恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/09_飞龙系/100360_洛卡伦恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1138,7 +1138,7 @@ var IMAGES = [
     "id": 101,
     "seriesId": 15,
     "name": "加宝格恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/09_飞龙系/100361_加宝格恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/09_飞龙系/100361_加宝格恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1146,7 +1146,7 @@ var IMAGES = [
     "id": 102,
     "seriesId": 15,
     "name": "朵拉比斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/09_飞龙系/100362_朵拉比斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/09_飞龙系/100362_朵拉比斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1154,7 +1154,7 @@ var IMAGES = [
     "id": 103,
     "seriesId": 15,
     "name": "可可恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/09_飞龙系/100898_可可恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/09_飞龙系/100898_可可恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1162,7 +1162,7 @@ var IMAGES = [
     "id": 104,
     "seriesId": 15,
     "name": "克洛恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/09_飞龙系/100899_克洛恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/09_飞龙系/100899_克洛恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1170,7 +1170,7 @@ var IMAGES = [
     "id": 105,
     "seriesId": 15,
     "name": "布兰恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/09_飞龙系/100900_布兰恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/09_飞龙系/100900_布兰恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1178,7 +1178,7 @@ var IMAGES = [
     "id": 106,
     "seriesId": 15,
     "name": "迪布恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/09_飞龙系/100901_迪布恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/09_飞龙系/100901_迪布恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1186,7 +1186,7 @@ var IMAGES = [
     "id": 107,
     "seriesId": 15,
     "name": "哈沃斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/09_飞龙系/101767_哈沃斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/09_飞龙系/101767_哈沃斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1194,7 +1194,7 @@ var IMAGES = [
     "id": 108,
     "seriesId": 15,
     "name": "哈沃恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/09_飞龙系/101768_哈沃恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/09_飞龙系/101768_哈沃恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1202,7 +1202,7 @@ var IMAGES = [
     "id": 109,
     "seriesId": 16,
     "name": "贝洛恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/10_大舌头系/100267_贝洛恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/10_大舌头系/100267_贝洛恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1210,7 +1210,7 @@ var IMAGES = [
     "id": 110,
     "seriesId": 16,
     "name": "贝洛洛克",
-    "thumbnailUrl": "http://localhost:5173/series-images/10_大舌头系/100268_贝洛洛克.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/10_大舌头系/100268_贝洛洛克.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1218,7 +1218,7 @@ var IMAGES = [
     "id": 111,
     "seriesId": 16,
     "name": "贝洛宝克尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/10_大舌头系/100269_贝洛宝克尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/10_大舌头系/100269_贝洛宝克尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1226,7 +1226,7 @@ var IMAGES = [
     "id": 112,
     "seriesId": 16,
     "name": "贝洛宝利",
-    "thumbnailUrl": "http://localhost:5173/series-images/10_大舌头系/100270_贝洛宝利.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/10_大舌头系/100270_贝洛宝利.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1234,7 +1234,7 @@ var IMAGES = [
     "id": 113,
     "seriesId": 16,
     "name": "贝洛金",
-    "thumbnailUrl": "http://localhost:5173/series-images/10_大舌头系/100834_贝洛金.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/10_大舌头系/100834_贝洛金.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1242,7 +1242,7 @@ var IMAGES = [
     "id": 114,
     "seriesId": 16,
     "name": "贝洛格",
-    "thumbnailUrl": "http://localhost:5173/series-images/10_大舌头系/100835_贝洛格.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/10_大舌头系/100835_贝洛格.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1250,7 +1250,7 @@ var IMAGES = [
     "id": 115,
     "seriesId": 16,
     "name": "贝洛贝",
-    "thumbnailUrl": "http://localhost:5173/series-images/10_大舌头系/100836_贝洛贝.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/10_大舌头系/100836_贝洛贝.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1258,7 +1258,7 @@ var IMAGES = [
     "id": 116,
     "seriesId": 16,
     "name": "贝洛波波",
-    "thumbnailUrl": "http://localhost:5173/series-images/10_大舌头系/100837_贝洛波波.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/10_大舌头系/100837_贝洛波波.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1266,7 +1266,7 @@ var IMAGES = [
     "id": 117,
     "seriesId": 17,
     "name": "龟之盾",
-    "thumbnailUrl": "http://localhost:5173/series-images/11_乌龟系/100271_龟之盾.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/11_乌龟系/100271_龟之盾.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1274,7 +1274,7 @@ var IMAGES = [
     "id": 118,
     "seriesId": 17,
     "name": "绿龟",
-    "thumbnailUrl": "http://localhost:5173/series-images/11_乌龟系/100272_绿龟.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/11_乌龟系/100272_绿龟.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1282,7 +1282,7 @@ var IMAGES = [
     "id": 119,
     "seriesId": 17,
     "name": "卡梅兰恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/11_乌龟系/100273_卡梅兰恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/11_乌龟系/100273_卡梅兰恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1290,7 +1290,7 @@ var IMAGES = [
     "id": 120,
     "seriesId": 17,
     "name": "石龟",
-    "thumbnailUrl": "http://localhost:5173/series-images/11_乌龟系/100274_石龟.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/11_乌龟系/100274_石龟.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1298,7 +1298,7 @@ var IMAGES = [
     "id": 121,
     "seriesId": 17,
     "name": "蓝龟",
-    "thumbnailUrl": "http://localhost:5173/series-images/11_乌龟系/100838_蓝龟.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/11_乌龟系/100838_蓝龟.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1306,7 +1306,7 @@ var IMAGES = [
     "id": 122,
     "seriesId": 17,
     "name": "卡拉格尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/11_乌龟系/100839_卡拉格尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/11_乌龟系/100839_卡拉格尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1314,7 +1314,7 @@ var IMAGES = [
     "id": 123,
     "seriesId": 17,
     "name": "龟之钢",
-    "thumbnailUrl": "http://localhost:5173/series-images/11_乌龟系/100840_龟之钢.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/11_乌龟系/100840_龟之钢.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1322,7 +1322,7 @@ var IMAGES = [
     "id": 124,
     "seriesId": 17,
     "name": "卡拉龟",
-    "thumbnailUrl": "http://localhost:5173/series-images/11_乌龟系/100841_卡拉龟.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/11_乌龟系/100841_卡拉龟.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1330,7 +1330,7 @@ var IMAGES = [
     "id": 125,
     "seriesId": 17,
     "name": "美拉",
-    "thumbnailUrl": "http://localhost:5173/series-images/11_乌龟系/101760_美拉.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/11_乌龟系/101760_美拉.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1338,7 +1338,7 @@ var IMAGES = [
     "id": 126,
     "seriesId": 18,
     "name": "克邦凯斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/12_鲨鱼系/100339_克邦凯斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/12_鲨鱼系/100339_克邦凯斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1346,7 +1346,7 @@ var IMAGES = [
     "id": 127,
     "seriesId": 18,
     "name": "加克拉",
-    "thumbnailUrl": "http://localhost:5173/series-images/12_鲨鱼系/100340_加克拉.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/12_鲨鱼系/100340_加克拉.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1354,7 +1354,7 @@ var IMAGES = [
     "id": 128,
     "seriesId": 18,
     "name": "加格",
-    "thumbnailUrl": "http://localhost:5173/series-images/12_鲨鱼系/100341_加格.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/12_鲨鱼系/100341_加格.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1362,7 +1362,7 @@ var IMAGES = [
     "id": 129,
     "seriesId": 18,
     "name": "邦恩吉",
-    "thumbnailUrl": "http://localhost:5173/series-images/12_鲨鱼系/100342_邦恩吉.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/12_鲨鱼系/100342_邦恩吉.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1370,7 +1370,7 @@ var IMAGES = [
     "id": 130,
     "seriesId": 18,
     "name": "迪加",
-    "thumbnailUrl": "http://localhost:5173/series-images/12_鲨鱼系/100879_迪加.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/12_鲨鱼系/100879_迪加.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1378,7 +1378,7 @@ var IMAGES = [
     "id": 131,
     "seriesId": 18,
     "name": "砂鲨",
-    "thumbnailUrl": "http://localhost:5173/series-images/12_鲨鱼系/100880_砂鲨.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/12_鲨鱼系/100880_砂鲨.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1386,7 +1386,7 @@ var IMAGES = [
     "id": 132,
     "seriesId": 18,
     "name": "波波顿",
-    "thumbnailUrl": "http://localhost:5173/series-images/12_鲨鱼系/100881_波波顿.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/12_鲨鱼系/100881_波波顿.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1394,7 +1394,7 @@ var IMAGES = [
     "id": 133,
     "seriesId": 18,
     "name": "梅鲁莎",
-    "thumbnailUrl": "http://localhost:5173/series-images/12_鲨鱼系/100882_梅鲁莎.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/12_鲨鱼系/100882_梅鲁莎.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1402,7 +1402,7 @@ var IMAGES = [
     "id": 134,
     "seriesId": 18,
     "name": "多芬",
-    "thumbnailUrl": "http://localhost:5173/series-images/12_鲨鱼系/101705_多芬.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/12_鲨鱼系/101705_多芬.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1410,7 +1410,7 @@ var IMAGES = [
     "id": 135,
     "seriesId": 18,
     "name": "温多芬",
-    "thumbnailUrl": "http://localhost:5173/series-images/12_鲨鱼系/101706_温多芬.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/12_鲨鱼系/101706_温多芬.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1418,7 +1418,7 @@ var IMAGES = [
     "id": 136,
     "seriesId": 19,
     "name": "邦奇",
-    "thumbnailUrl": "http://localhost:5173/series-images/13_海主人系/100347_邦奇.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/13_海主人系/100347_邦奇.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1426,7 +1426,7 @@ var IMAGES = [
     "id": 137,
     "seriesId": 19,
     "name": "姆伊",
-    "thumbnailUrl": "http://localhost:5173/series-images/13_海主人系/100348_姆伊.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/13_海主人系/100348_姆伊.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1434,7 +1434,7 @@ var IMAGES = [
     "id": 138,
     "seriesId": 19,
     "name": "海主人",
-    "thumbnailUrl": "http://localhost:5173/series-images/13_海主人系/100349_海主人.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/13_海主人系/100349_海主人.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1442,7 +1442,7 @@ var IMAGES = [
     "id": 139,
     "seriesId": 19,
     "name": "多鲁宝",
-    "thumbnailUrl": "http://localhost:5173/series-images/13_海主人系/100350_多鲁宝.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/13_海主人系/100350_多鲁宝.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1450,7 +1450,7 @@ var IMAGES = [
     "id": 140,
     "seriesId": 19,
     "name": "欧瑟菲",
-    "thumbnailUrl": "http://localhost:5173/series-images/13_海主人系/100887_欧瑟菲.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/13_海主人系/100887_欧瑟菲.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1458,7 +1458,7 @@ var IMAGES = [
     "id": 141,
     "seriesId": 19,
     "name": "莫拉司",
-    "thumbnailUrl": "http://localhost:5173/series-images/13_海主人系/100888_莫拉司.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/13_海主人系/100888_莫拉司.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1466,7 +1466,7 @@ var IMAGES = [
     "id": 142,
     "seriesId": 19,
     "name": "玛斯特",
-    "thumbnailUrl": "http://localhost:5173/series-images/13_海主人系/100889_玛斯特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/13_海主人系/100889_玛斯特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1474,7 +1474,7 @@ var IMAGES = [
     "id": 143,
     "seriesId": 19,
     "name": "沙瓦列",
-    "thumbnailUrl": "http://localhost:5173/series-images/13_海主人系/100890_沙瓦列.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/13_海主人系/100890_沙瓦列.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1482,7 +1482,7 @@ var IMAGES = [
     "id": 144,
     "seriesId": 20,
     "name": "史多拉奇顿",
-    "thumbnailUrl": "http://localhost:5173/series-images/14_猪头鱼系/100379_史多拉奇顿.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/14_猪头鱼系/100379_史多拉奇顿.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1490,7 +1490,7 @@ var IMAGES = [
     "id": 145,
     "seriesId": 20,
     "name": "萨美洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/14_猪头鱼系/100380_萨美洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/14_猪头鱼系/100380_萨美洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1498,7 +1498,7 @@ var IMAGES = [
     "id": 146,
     "seriesId": 20,
     "name": "阿利给洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/14_猪头鱼系/100381_阿利给洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/14_猪头鱼系/100381_阿利给洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1506,7 +1506,7 @@ var IMAGES = [
     "id": 147,
     "seriesId": 20,
     "name": "达伊诺洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/14_猪头鱼系/100382_达伊诺洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/14_猪头鱼系/100382_达伊诺洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1514,7 +1514,7 @@ var IMAGES = [
     "id": 148,
     "seriesId": 20,
     "name": "拉可拉斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/14_猪头鱼系/100383_拉可拉斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/14_猪头鱼系/100383_拉可拉斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1522,7 +1522,7 @@ var IMAGES = [
     "id": 149,
     "seriesId": 20,
     "name": "莱姆洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/14_猪头鱼系/100913_莱姆洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/14_猪头鱼系/100913_莱姆洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1530,7 +1530,7 @@ var IMAGES = [
     "id": 150,
     "seriesId": 20,
     "name": "朱利洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/14_猪头鱼系/100914_朱利洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/14_猪头鱼系/100914_朱利洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1538,7 +1538,7 @@ var IMAGES = [
     "id": 151,
     "seriesId": 20,
     "name": "辛普洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/14_猪头鱼系/100915_辛普洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/14_猪头鱼系/100915_辛普洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1546,7 +1546,7 @@ var IMAGES = [
     "id": 152,
     "seriesId": 21,
     "name": "拉奇鲁哥",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/100279_拉奇鲁哥.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/100279_拉奇鲁哥.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1554,7 +1554,7 @@ var IMAGES = [
     "id": 153,
     "seriesId": 21,
     "name": "呼拔拔",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/100280_呼拔拔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/100280_呼拔拔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1562,7 +1562,7 @@ var IMAGES = [
     "id": 154,
     "seriesId": 21,
     "name": "多萨金格",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/100281_多萨金格.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/100281_多萨金格.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1570,7 +1570,7 @@ var IMAGES = [
     "id": 155,
     "seriesId": 21,
     "name": "鲁尼帖斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/100282_鲁尼帖斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/100282_鲁尼帖斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1578,7 +1578,7 @@ var IMAGES = [
     "id": 156,
     "seriesId": 21,
     "name": "呼波波",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/100845_呼波波.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/100845_呼波波.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1586,7 +1586,7 @@ var IMAGES = [
     "id": 157,
     "seriesId": 21,
     "name": "呼鲁鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/100846_呼鲁鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/100846_呼鲁鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1594,7 +1594,7 @@ var IMAGES = [
     "id": 158,
     "seriesId": 21,
     "name": "鲁拉其斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/100847_鲁拉其斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/100847_鲁拉其斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1602,7 +1602,7 @@ var IMAGES = [
     "id": 159,
     "seriesId": 21,
     "name": "拉奇斯斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/100848_拉奇斯斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/100848_拉奇斯斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1610,7 +1610,7 @@ var IMAGES = [
     "id": 160,
     "seriesId": 21,
     "name": "克雷多",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/101619_克雷多.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/101619_克雷多.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1618,7 +1618,7 @@ var IMAGES = [
     "id": 161,
     "seriesId": 21,
     "name": "培罗多",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/101620_培罗多.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/101620_培罗多.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1626,7 +1626,7 @@ var IMAGES = [
     "id": 162,
     "seriesId": 21,
     "name": "毕卡斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/101622_毕卡斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/101622_毕卡斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1634,7 +1634,7 @@ var IMAGES = [
     "id": 163,
     "seriesId": 21,
     "name": "艾柏瑞（鸟）",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/101723_艾柏瑞（鸟）.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/101723_艾柏瑞（鸟）.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1642,7 +1642,7 @@ var IMAGES = [
     "id": 164,
     "seriesId": 21,
     "name": "呼萨瑞",
-    "thumbnailUrl": "http://localhost:5173/series-images/15_呼拔拔系/101724_呼萨瑞.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/15_呼拔拔系/101724_呼萨瑞.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1650,7 +1650,7 @@ var IMAGES = [
     "id": 165,
     "seriesId": 22,
     "name": "利则诺顿",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/100287_利则诺顿.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/100287_利则诺顿.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1658,7 +1658,7 @@ var IMAGES = [
     "id": 166,
     "seriesId": 22,
     "name": "扬奇洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/100288_扬奇洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/100288_扬奇洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1666,7 +1666,7 @@ var IMAGES = [
     "id": 167,
     "seriesId": 22,
     "name": "邦浦洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/100289_邦浦洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/100289_邦浦洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1674,7 +1674,7 @@ var IMAGES = [
     "id": 168,
     "seriesId": 22,
     "name": "邦奇诺",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/100290_邦奇诺.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/100290_邦奇诺.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1682,7 +1682,7 @@ var IMAGES = [
     "id": 169,
     "seriesId": 22,
     "name": "布鲁顿",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/100394_布鲁顿.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/100394_布鲁顿.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1690,7 +1690,7 @@ var IMAGES = [
     "id": 170,
     "seriesId": 22,
     "name": "邦诺斯娜",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/100849_邦诺斯娜.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/100849_邦诺斯娜.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1698,7 +1698,7 @@ var IMAGES = [
     "id": 171,
     "seriesId": 22,
     "name": "杨格斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/100850_杨格斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/100850_杨格斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1706,7 +1706,7 @@ var IMAGES = [
     "id": 172,
     "seriesId": 22,
     "name": "迪基格斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/100851_迪基格斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/100851_迪基格斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1714,7 +1714,7 @@ var IMAGES = [
     "id": 173,
     "seriesId": 22,
     "name": "奇肯沃",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/101717_奇肯沃.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/101717_奇肯沃.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1722,7 +1722,7 @@ var IMAGES = [
     "id": 174,
     "seriesId": 22,
     "name": "奇肯克奈",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/101718_奇肯克奈.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/101718_奇肯克奈.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1730,7 +1730,7 @@ var IMAGES = [
     "id": 175,
     "seriesId": 22,
     "name": "里德尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/101729_里德尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/101729_里德尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1738,7 +1738,7 @@ var IMAGES = [
     "id": 176,
     "seriesId": 22,
     "name": "帖伊诺斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/101819_帖伊诺斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/101819_帖伊诺斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1746,7 +1746,7 @@ var IMAGES = [
     "id": 177,
     "seriesId": 22,
     "name": "瓦奇肯",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/101906_瓦奇肯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/101906_瓦奇肯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1754,7 +1754,7 @@ var IMAGES = [
     "id": 178,
     "seriesId": 22,
     "name": "弗奇肯",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/101907_弗奇肯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/101907_弗奇肯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1762,7 +1762,7 @@ var IMAGES = [
     "id": 179,
     "seriesId": 22,
     "name": "欧奇肯",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/101908_欧奇肯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/101908_欧奇肯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1770,7 +1770,7 @@ var IMAGES = [
     "id": 180,
     "seriesId": 22,
     "name": "波奇肯",
-    "thumbnailUrl": "http://localhost:5173/series-images/16_人龙系/101909_波奇肯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/16_人龙系/101909_波奇肯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1778,7 +1778,7 @@ var IMAGES = [
     "id": 181,
     "seriesId": 23,
     "name": "多利诺布斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/17_犀牛系/100335_多利诺布斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/17_犀牛系/100335_多利诺布斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1786,7 +1786,7 @@ var IMAGES = [
     "id": 182,
     "seriesId": 23,
     "name": "贝恩达斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/17_犀牛系/100336_贝恩达斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/17_犀牛系/100336_贝恩达斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1794,7 +1794,7 @@ var IMAGES = [
     "id": 183,
     "seriesId": 23,
     "name": "多利凯拉",
-    "thumbnailUrl": "http://localhost:5173/series-images/17_犀牛系/100337_多利凯拉.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/17_犀牛系/100337_多利凯拉.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1802,7 +1802,7 @@ var IMAGES = [
     "id": 184,
     "seriesId": 23,
     "name": "多洛布斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/17_犀牛系/100338_多洛布斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/17_犀牛系/100338_多洛布斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1810,7 +1810,7 @@ var IMAGES = [
     "id": 185,
     "seriesId": 23,
     "name": "麦丁布斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/17_犀牛系/100875_麦丁布斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/17_犀牛系/100875_麦丁布斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1818,7 +1818,7 @@ var IMAGES = [
     "id": 186,
     "seriesId": 23,
     "name": "加耶布斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/17_犀牛系/100876_加耶布斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/17_犀牛系/100876_加耶布斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1826,7 +1826,7 @@ var IMAGES = [
     "id": 187,
     "seriesId": 23,
     "name": "迪米布斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/17_犀牛系/100877_迪米布斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/17_犀牛系/100877_迪米布斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1834,7 +1834,7 @@ var IMAGES = [
     "id": 188,
     "seriesId": 23,
     "name": "玻洛布斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/17_犀牛系/100878_玻洛布斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/17_犀牛系/100878_玻洛布斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1842,7 +1842,7 @@ var IMAGES = [
     "id": 189,
     "seriesId": 24,
     "name": "布洛多斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/18_雷龙系/100351_布洛多斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/18_雷龙系/100351_布洛多斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1850,7 +1850,7 @@ var IMAGES = [
     "id": 190,
     "seriesId": 24,
     "name": "布林帖斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/18_雷龙系/100352_布林帖斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/18_雷龙系/100352_布林帖斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1858,7 +1858,7 @@ var IMAGES = [
     "id": 191,
     "seriesId": 24,
     "name": "布拉奇多斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/18_雷龙系/100353_布拉奇多斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/18_雷龙系/100353_布拉奇多斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1866,7 +1866,7 @@ var IMAGES = [
     "id": 192,
     "seriesId": 24,
     "name": "斯天多斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/18_雷龙系/100354_斯天多斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/18_雷龙系/100354_斯天多斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1874,7 +1874,7 @@ var IMAGES = [
     "id": 193,
     "seriesId": 24,
     "name": "邦恩多斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/18_雷龙系/100396_邦恩多斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/18_雷龙系/100396_邦恩多斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1882,7 +1882,7 @@ var IMAGES = [
     "id": 194,
     "seriesId": 24,
     "name": "嘎吱拉",
-    "thumbnailUrl": "http://localhost:5173/series-images/18_雷龙系/100891_嘎吱拉.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/18_雷龙系/100891_嘎吱拉.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1890,7 +1890,7 @@ var IMAGES = [
     "id": 195,
     "seriesId": 24,
     "name": "哥斯哥斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/18_雷龙系/100892_哥斯哥斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/18_雷龙系/100892_哥斯哥斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1898,7 +1898,7 @@ var IMAGES = [
     "id": 196,
     "seriesId": 24,
     "name": "蒙哥拉斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/18_雷龙系/100893_蒙哥拉斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/18_雷龙系/100893_蒙哥拉斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1906,7 +1906,7 @@ var IMAGES = [
     "id": 197,
     "seriesId": 24,
     "name": "罗多克雷",
-    "thumbnailUrl": "http://localhost:5173/series-images/18_雷龙系/101576_罗多克雷.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/18_雷龙系/101576_罗多克雷.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1914,7 +1914,7 @@ var IMAGES = [
     "id": 198,
     "seriesId": 24,
     "name": "罗特克拉",
-    "thumbnailUrl": "http://localhost:5173/series-images/18_雷龙系/101577_罗特克拉.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/18_雷龙系/101577_罗特克拉.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1922,7 +1922,7 @@ var IMAGES = [
     "id": 199,
     "seriesId": 25,
     "name": "奥卡洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/19_暴龙系/100371_奥卡洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/19_暴龙系/100371_奥卡洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1930,7 +1930,7 @@ var IMAGES = [
     "id": 200,
     "seriesId": 25,
     "name": "左迪洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/19_暴龙系/100372_左迪洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/19_暴龙系/100372_左迪洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1938,7 +1938,7 @@ var IMAGES = [
     "id": 201,
     "seriesId": 25,
     "name": "巴朵兰恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/19_暴龙系/100373_巴朵兰恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/19_暴龙系/100373_巴朵兰恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1946,7 +1946,7 @@ var IMAGES = [
     "id": 202,
     "seriesId": 25,
     "name": "帖拉所伊朵",
-    "thumbnailUrl": "http://localhost:5173/series-images/19_暴龙系/100374_帖拉所伊朵.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/19_暴龙系/100374_帖拉所伊朵.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1954,7 +1954,7 @@ var IMAGES = [
     "id": 203,
     "seriesId": 25,
     "name": "朵巴奈特",
-    "thumbnailUrl": "http://localhost:5173/series-images/19_暴龙系/100906_朵巴奈特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/19_暴龙系/100906_朵巴奈特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1962,7 +1962,7 @@ var IMAGES = [
     "id": 204,
     "seriesId": 25,
     "name": "斑尼迪克",
-    "thumbnailUrl": "http://localhost:5173/series-images/19_暴龙系/100907_斑尼迪克.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/19_暴龙系/100907_斑尼迪克.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1970,7 +1970,7 @@ var IMAGES = [
     "id": 205,
     "seriesId": 25,
     "name": "阿米朵",
-    "thumbnailUrl": "http://localhost:5173/series-images/19_暴龙系/100908_阿米朵.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/19_暴龙系/100908_阿米朵.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1978,7 +1978,7 @@ var IMAGES = [
     "id": 206,
     "seriesId": 25,
     "name": "邦司凉朵",
-    "thumbnailUrl": "http://localhost:5173/series-images/19_暴龙系/100909_邦司凉朵.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/19_暴龙系/100909_邦司凉朵.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1986,7 +1986,7 @@ var IMAGES = [
     "id": 207,
     "seriesId": 26,
     "name": "邦洛洛克斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/20_水龙系/100384_邦洛洛克斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/20_水龙系/100384_邦洛洛克斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -1994,7 +1994,7 @@ var IMAGES = [
     "id": 208,
     "seriesId": 26,
     "name": "兰贝鲁斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/20_水龙系/100385_兰贝鲁斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/20_水龙系/100385_兰贝鲁斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2002,7 +2002,7 @@ var IMAGES = [
     "id": 209,
     "seriesId": 26,
     "name": "可利多洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/20_水龙系/100386_可利多洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/20_水龙系/100386_可利多洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2010,7 +2010,7 @@ var IMAGES = [
     "id": 210,
     "seriesId": 26,
     "name": "诺斯多洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/20_水龙系/100387_诺斯多洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/20_水龙系/100387_诺斯多洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2018,7 +2018,7 @@ var IMAGES = [
     "id": 211,
     "seriesId": 26,
     "name": "立杜鲁斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/20_水龙系/100916_立杜鲁斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/20_水龙系/100916_立杜鲁斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2026,7 +2026,7 @@ var IMAGES = [
     "id": 212,
     "seriesId": 26,
     "name": "诺克斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/20_水龙系/100917_诺克斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/20_水龙系/100917_诺克斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2034,7 +2034,7 @@ var IMAGES = [
     "id": 213,
     "seriesId": 26,
     "name": "巴克亚司",
-    "thumbnailUrl": "http://localhost:5173/series-images/20_水龙系/100918_巴克亚司.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/20_水龙系/100918_巴克亚司.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2042,7 +2042,7 @@ var IMAGES = [
     "id": 214,
     "seriesId": 26,
     "name": "雷德力克斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/20_水龙系/100919_雷德力克斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/20_水龙系/100919_雷德力克斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2050,7 +2050,7 @@ var IMAGES = [
     "id": 215,
     "seriesId": 27,
     "name": "格尔顿",
-    "thumbnailUrl": "http://localhost:5173/series-images/21_猩猩系/100307_格尔顿.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/21_猩猩系/100307_格尔顿.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2058,7 +2058,7 @@ var IMAGES = [
     "id": 216,
     "seriesId": 27,
     "name": "奇拉顿",
-    "thumbnailUrl": "http://localhost:5173/series-images/21_猩猩系/100308_奇拉顿.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/21_猩猩系/100308_奇拉顿.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2066,7 +2066,7 @@ var IMAGES = [
     "id": 217,
     "seriesId": 27,
     "name": "齐尔格尔顿",
-    "thumbnailUrl": "http://localhost:5173/series-images/21_猩猩系/100309_齐尔格尔顿.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/21_猩猩系/100309_齐尔格尔顿.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2074,7 +2074,7 @@ var IMAGES = [
     "id": 218,
     "seriesId": 27,
     "name": "格尔格",
-    "thumbnailUrl": "http://localhost:5173/series-images/21_猩猩系/100310_格尔格.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/21_猩猩系/100310_格尔格.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2082,7 +2082,7 @@ var IMAGES = [
     "id": 219,
     "seriesId": 27,
     "name": "司尔顿",
-    "thumbnailUrl": "http://localhost:5173/series-images/21_猩猩系/100860_司尔顿.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/21_猩猩系/100860_司尔顿.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2090,7 +2090,7 @@ var IMAGES = [
     "id": 220,
     "seriesId": 27,
     "name": "格尔希洛",
-    "thumbnailUrl": "http://localhost:5173/series-images/21_猩猩系/100861_格尔希洛.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/21_猩猩系/100861_格尔希洛.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2098,7 +2098,7 @@ var IMAGES = [
     "id": 221,
     "seriesId": 27,
     "name": "梅尔顿",
-    "thumbnailUrl": "http://localhost:5173/series-images/21_猩猩系/100862_梅尔顿.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/21_猩猩系/100862_梅尔顿.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2106,7 +2106,7 @@ var IMAGES = [
     "id": 222,
     "seriesId": 27,
     "name": "戈登尔顿",
-    "thumbnailUrl": "http://localhost:5173/series-images/21_猩猩系/100863_戈登尔顿.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/21_猩猩系/100863_戈登尔顿.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2114,7 +2114,7 @@ var IMAGES = [
     "id": 223,
     "seriesId": 28,
     "name": "卡克尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/22_茄子系/100323_卡克尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/22_茄子系/100323_卡克尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2122,7 +2122,7 @@ var IMAGES = [
     "id": 224,
     "seriesId": 28,
     "name": "巴克",
-    "thumbnailUrl": "http://localhost:5173/series-images/22_茄子系/100324_巴克.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/22_茄子系/100324_巴克.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2130,7 +2130,7 @@ var IMAGES = [
     "id": 225,
     "seriesId": 28,
     "name": "鲍",
-    "thumbnailUrl": "http://localhost:5173/series-images/22_茄子系/100325_鲍.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/22_茄子系/100325_鲍.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2138,7 +2138,7 @@ var IMAGES = [
     "id": 226,
     "seriesId": 28,
     "name": "卡拉卡利",
-    "thumbnailUrl": "http://localhost:5173/series-images/22_茄子系/100326_卡拉卡利.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/22_茄子系/100326_卡拉卡利.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2146,7 +2146,7 @@ var IMAGES = [
     "id": 227,
     "seriesId": 28,
     "name": "欧林吉鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/22_茄子系/100867_欧林吉鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/22_茄子系/100867_欧林吉鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2154,7 +2154,7 @@ var IMAGES = [
     "id": 228,
     "seriesId": 28,
     "name": "史凯鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/22_茄子系/100868_史凯鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/22_茄子系/100868_史凯鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2162,7 +2162,7 @@ var IMAGES = [
     "id": 229,
     "seriesId": 28,
     "name": "耶普鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/22_茄子系/100869_耶普鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/22_茄子系/100869_耶普鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2170,7 +2170,7 @@ var IMAGES = [
     "id": 230,
     "seriesId": 28,
     "name": "芭拉芭",
-    "thumbnailUrl": "http://localhost:5173/series-images/22_茄子系/100870_芭拉芭.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/22_茄子系/100870_芭拉芭.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2178,7 +2178,7 @@ var IMAGES = [
     "id": 231,
     "seriesId": 29,
     "name": "贝鲁卡",
-    "thumbnailUrl": "http://localhost:5173/series-images/23_老虎系/100327_贝鲁卡.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/23_老虎系/100327_贝鲁卡.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2186,7 +2186,7 @@ var IMAGES = [
     "id": 232,
     "seriesId": 29,
     "name": "贝鲁伊卡",
-    "thumbnailUrl": "http://localhost:5173/series-images/23_老虎系/100328_贝鲁伊卡.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/23_老虎系/100328_贝鲁伊卡.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2194,7 +2194,7 @@ var IMAGES = [
     "id": 233,
     "seriesId": 29,
     "name": "格鲁西斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/23_老虎系/100329_格鲁西斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/23_老虎系/100329_格鲁西斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2202,7 +2202,7 @@ var IMAGES = [
     "id": 234,
     "seriesId": 29,
     "name": "金格萨贝鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/23_老虎系/100330_金格萨贝鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/23_老虎系/100330_金格萨贝鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2210,7 +2210,7 @@ var IMAGES = [
     "id": 235,
     "seriesId": 29,
     "name": "普鲁夏",
-    "thumbnailUrl": "http://localhost:5173/series-images/23_老虎系/100871_普鲁夏.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/23_老虎系/100871_普鲁夏.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2218,7 +2218,7 @@ var IMAGES = [
     "id": 236,
     "seriesId": 29,
     "name": "萨格鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/23_老虎系/100873_萨格鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/23_老虎系/100873_萨格鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2226,7 +2226,7 @@ var IMAGES = [
     "id": 237,
     "seriesId": 29,
     "name": "玛斯贝卡",
-    "thumbnailUrl": "http://localhost:5173/series-images/23_老虎系/100874_玛斯贝卡.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/23_老虎系/100874_玛斯贝卡.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2234,7 +2234,7 @@ var IMAGES = [
     "id": 238,
     "seriesId": 30,
     "name": "玛恩摩",
-    "thumbnailUrl": "http://localhost:5173/series-images/24_长毛象系/100355_玛恩摩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/24_长毛象系/100355_玛恩摩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2242,7 +2242,7 @@ var IMAGES = [
     "id": 239,
     "seriesId": 30,
     "name": "恩摩摩",
-    "thumbnailUrl": "http://localhost:5173/series-images/24_长毛象系/100356_恩摩摩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/24_长毛象系/100356_恩摩摩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2250,7 +2250,7 @@ var IMAGES = [
     "id": 240,
     "seriesId": 30,
     "name": "玛摩那斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/24_长毛象系/100357_玛摩那斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/24_长毛象系/100357_玛摩那斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2258,7 +2258,7 @@ var IMAGES = [
     "id": 241,
     "seriesId": 30,
     "name": "玛恩摩洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/24_长毛象系/100358_玛恩摩洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/24_长毛象系/100358_玛恩摩洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2266,7 +2266,7 @@ var IMAGES = [
     "id": 242,
     "seriesId": 30,
     "name": "固力摩",
-    "thumbnailUrl": "http://localhost:5173/series-images/24_长毛象系/100894_固力摩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/24_长毛象系/100894_固力摩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2274,7 +2274,7 @@ var IMAGES = [
     "id": 243,
     "seriesId": 30,
     "name": "摩吉摩吉",
-    "thumbnailUrl": "http://localhost:5173/series-images/24_长毛象系/100895_摩吉摩吉.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/24_长毛象系/100895_摩吉摩吉.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2282,7 +2282,7 @@ var IMAGES = [
     "id": 244,
     "seriesId": 30,
     "name": "摩米索拉",
-    "thumbnailUrl": "http://localhost:5173/series-images/24_长毛象系/100896_摩米索拉.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/24_长毛象系/100896_摩米索拉.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2290,7 +2290,7 @@ var IMAGES = [
     "id": 245,
     "seriesId": 30,
     "name": "摩酷罗",
-    "thumbnailUrl": "http://localhost:5173/series-images/24_长毛象系/100897_摩酷罗.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/24_长毛象系/100897_摩酷罗.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2298,7 +2298,7 @@ var IMAGES = [
     "id": 246,
     "seriesId": 31,
     "name": "火鸡",
-    "thumbnailUrl": "http://localhost:5173/series-images/25_鸡系/100367_火鸡.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/100367_火鸡.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2306,7 +2306,7 @@ var IMAGES = [
     "id": 247,
     "seriesId": 31,
     "name": "克克洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/25_鸡系/100368_克克洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/100368_克克洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2314,7 +2314,7 @@ var IMAGES = [
     "id": 248,
     "seriesId": 31,
     "name": "霍尔克",
-    "thumbnailUrl": "http://localhost:5173/series-images/25_鸡系/100369_霍尔克.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/100369_霍尔克.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2322,7 +2322,7 @@ var IMAGES = [
     "id": 249,
     "seriesId": 31,
     "name": "奇宝",
-    "thumbnailUrl": "http://localhost:5173/series-images/25_鸡系/100370_奇宝.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/100370_奇宝.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2330,7 +2330,7 @@ var IMAGES = [
     "id": 250,
     "seriesId": 31,
     "name": "格里兰",
-    "thumbnailUrl": "http://localhost:5173/series-images/25_鸡系/100902_格里兰.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/100902_格里兰.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2338,7 +2338,7 @@ var IMAGES = [
     "id": 251,
     "seriesId": 31,
     "name": "摩里",
-    "thumbnailUrl": "http://localhost:5173/series-images/25_鸡系/100903_摩里.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/100903_摩里.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2346,7 +2346,7 @@ var IMAGES = [
     "id": 252,
     "seriesId": 31,
     "name": "瑞里西尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/25_鸡系/100904_瑞里西尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/100904_瑞里西尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2354,7 +2354,7 @@ var IMAGES = [
     "id": 253,
     "seriesId": 31,
     "name": "塔斯夫",
-    "thumbnailUrl": "http://localhost:5173/series-images/25_鸡系/100905_塔斯夫.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/100905_塔斯夫.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2362,7 +2362,7 @@ var IMAGES = [
     "id": 254,
     "seriesId": 31,
     "name": "毕可斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/25_鸡系/101621_毕可斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/101621_毕可斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2370,7 +2370,7 @@ var IMAGES = [
     "id": 255,
     "seriesId": 31,
     "name": "卡沃寇恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/25_鸡系/101910_卡沃寇恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/101910_卡沃寇恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2378,7 +2378,7 @@ var IMAGES = [
     "id": 256,
     "seriesId": 31,
     "name": "卡沃裴特",
-    "thumbnailUrl": "http://localhost:5173/series-images/25_鸡系/101911_卡沃裴特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/25_鸡系/101911_卡沃裴特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2386,7 +2386,7 @@ var IMAGES = [
     "id": 257,
     "seriesId": 32,
     "name": "布伊德",
-    "thumbnailUrl": "http://localhost:5173/series-images/26_羊系/100375_布伊德.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/26_羊系/100375_布伊德.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2394,7 +2394,7 @@ var IMAGES = [
     "id": 258,
     "seriesId": 32,
     "name": "摩娜西普",
-    "thumbnailUrl": "http://localhost:5173/series-images/26_羊系/100376_摩娜西普.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/26_羊系/100376_摩娜西普.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2402,7 +2402,7 @@ var IMAGES = [
     "id": 259,
     "seriesId": 32,
     "name": "卡伊霍恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/26_羊系/100377_卡伊霍恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/26_羊系/100377_卡伊霍恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2410,7 +2410,7 @@ var IMAGES = [
     "id": 260,
     "seriesId": 32,
     "name": "拉伊霍恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/26_羊系/100378_拉伊霍恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/26_羊系/100378_拉伊霍恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2418,7 +2418,7 @@ var IMAGES = [
     "id": 261,
     "seriesId": 32,
     "name": "邦达霍恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/26_羊系/100430_邦达霍恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/26_羊系/100430_邦达霍恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2426,7 +2426,7 @@ var IMAGES = [
     "id": 262,
     "seriesId": 32,
     "name": "布莱兹",
-    "thumbnailUrl": "http://localhost:5173/series-images/26_羊系/100910_布莱兹.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/26_羊系/100910_布莱兹.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2434,7 +2434,7 @@ var IMAGES = [
     "id": 263,
     "seriesId": 32,
     "name": "布依伦斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/26_羊系/100911_布依伦斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/26_羊系/100911_布依伦斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2442,7 +2442,7 @@ var IMAGES = [
     "id": 264,
     "seriesId": 32,
     "name": "伊夫霍恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/26_羊系/100912_伊夫霍恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/26_羊系/100912_伊夫霍恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2450,7 +2450,7 @@ var IMAGES = [
     "id": 265,
     "seriesId": 33,
     "name": "卡达鲁卡斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/100283_卡达鲁卡斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/100283_卡达鲁卡斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2458,7 +2458,7 @@ var IMAGES = [
     "id": 266,
     "seriesId": 33,
     "name": "柯伊达",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/100284_柯伊达.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/100284_柯伊达.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2466,7 +2466,7 @@ var IMAGES = [
     "id": 267,
     "seriesId": 33,
     "name": "柯洛加斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/100285_柯洛加斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/100285_柯洛加斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2474,7 +2474,7 @@ var IMAGES = [
     "id": 268,
     "seriesId": 33,
     "name": "洛奇安",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/100286_洛奇安.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/100286_洛奇安.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2482,7 +2482,7 @@ var IMAGES = [
     "id": 269,
     "seriesId": 33,
     "name": "洛克斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/100389_洛克斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/100389_洛克斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2490,7 +2490,7 @@ var IMAGES = [
     "id": 270,
     "seriesId": 33,
     "name": "阿伊萨",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/100390_阿伊萨.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/100390_阿伊萨.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2498,7 +2498,7 @@ var IMAGES = [
     "id": 271,
     "seriesId": 33,
     "name": "格洛格鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/100391_格洛格鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/100391_格洛格鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2506,7 +2506,7 @@ var IMAGES = [
     "id": 272,
     "seriesId": 33,
     "name": "朵洛将恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/100392_朵洛将恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/100392_朵洛将恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2514,7 +2514,7 @@ var IMAGES = [
     "id": 273,
     "seriesId": 33,
     "name": "修格尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/101961_修格尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/101961_修格尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2522,7 +2522,7 @@ var IMAGES = [
     "id": 274,
     "seriesId": 33,
     "name": "尼修喀",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/101962_尼修喀.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/101962_尼修喀.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2530,7 +2530,7 @@ var IMAGES = [
     "id": 275,
     "seriesId": 33,
     "name": "修坦",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/101963_修坦.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/101963_修坦.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2538,7 +2538,7 @@ var IMAGES = [
     "id": 276,
     "seriesId": 33,
     "name": "修尼修尼",
-    "thumbnailUrl": "http://localhost:5173/series-images/27_穿山甲系/101964_修尼修尼.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/27_穿山甲系/101964_修尼修尼.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2546,7 +2546,7 @@ var IMAGES = [
     "id": 277,
     "seriesId": 34,
     "name": "佩露夏",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/100872_佩露夏.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/100872_佩露夏.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2554,7 +2554,7 @@ var IMAGES = [
     "id": 278,
     "seriesId": 34,
     "name": "葛雷基欧",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101152_葛雷基欧.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101152_葛雷基欧.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2562,7 +2562,7 @@ var IMAGES = [
     "id": 279,
     "seriesId": 34,
     "name": "葛雷洛比",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101153_葛雷洛比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101153_葛雷洛比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2570,7 +2570,7 @@ var IMAGES = [
     "id": 280,
     "seriesId": 34,
     "name": "葛雷吉鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101154_葛雷吉鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101154_葛雷吉鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2578,7 +2578,7 @@ var IMAGES = [
     "id": 281,
     "seriesId": 34,
     "name": "葛雷马恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101155_葛雷马恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101155_葛雷马恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2586,7 +2586,7 @@ var IMAGES = [
     "id": 282,
     "seriesId": 34,
     "name": "鲁比",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101177_鲁比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101177_鲁比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2594,7 +2594,7 @@ var IMAGES = [
     "id": 283,
     "seriesId": 34,
     "name": "吉比",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101178_吉比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101178_吉比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2602,7 +2602,7 @@ var IMAGES = [
     "id": 284,
     "seriesId": 34,
     "name": "凯恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101180_凯恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101180_凯恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2610,7 +2610,7 @@ var IMAGES = [
     "id": 285,
     "seriesId": 34,
     "name": "卡恩格登",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101284_卡恩格登.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101284_卡恩格登.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2618,7 +2618,7 @@ var IMAGES = [
     "id": 286,
     "seriesId": 34,
     "name": "卡恩米兹",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101285_卡恩米兹.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101285_卡恩米兹.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2626,7 +2626,7 @@ var IMAGES = [
     "id": 287,
     "seriesId": 34,
     "name": "卡恩法尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101286_卡恩法尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101286_卡恩法尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2634,7 +2634,7 @@ var IMAGES = [
     "id": 288,
     "seriesId": 34,
     "name": "卡恩修比",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101287_卡恩修比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101287_卡恩修比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2642,7 +2642,7 @@ var IMAGES = [
     "id": 289,
     "seriesId": 34,
     "name": "蒙奇",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101412_蒙奇.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101412_蒙奇.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2650,7 +2650,7 @@ var IMAGES = [
     "id": 290,
     "seriesId": 34,
     "name": "艾迪希洛",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101423_艾迪希洛.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101423_艾迪希洛.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2658,7 +2658,7 @@ var IMAGES = [
     "id": 291,
     "seriesId": 34,
     "name": "翟贝里恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101437_翟贝里恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101437_翟贝里恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2666,7 +2666,7 @@ var IMAGES = [
     "id": 292,
     "seriesId": 34,
     "name": "赫拉克勒斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101438_赫拉克勒斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101438_赫拉克勒斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2674,7 +2674,7 @@ var IMAGES = [
     "id": 293,
     "seriesId": 34,
     "name": "米鲁多",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101439_米鲁多.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101439_米鲁多.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2682,7 +2682,7 @@ var IMAGES = [
     "id": 294,
     "seriesId": 34,
     "name": "多鲁多",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101440_多鲁多.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101440_多鲁多.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2690,7 +2690,7 @@ var IMAGES = [
     "id": 295,
     "seriesId": 34,
     "name": "布尔摩",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101441_布尔摩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101441_布尔摩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2698,7 +2698,7 @@ var IMAGES = [
     "id": 296,
     "seriesId": 34,
     "name": "洛奇斯德",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101442_洛奇斯德.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101442_洛奇斯德.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2706,7 +2706,7 @@ var IMAGES = [
     "id": 297,
     "seriesId": 34,
     "name": "缪那",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101443_缪那.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101443_缪那.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2714,7 +2714,7 @@ var IMAGES = [
     "id": 298,
     "seriesId": 34,
     "name": "帖尼布",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101493_帖尼布.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101493_帖尼布.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2722,7 +2722,7 @@ var IMAGES = [
     "id": 299,
     "seriesId": 34,
     "name": "帖尼贝",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101494_帖尼贝.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101494_帖尼贝.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2730,7 +2730,7 @@ var IMAGES = [
     "id": 300,
     "seriesId": 34,
     "name": "帖尼恩",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101495_帖尼恩.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101495_帖尼恩.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2738,7 +2738,7 @@ var IMAGES = [
     "id": 301,
     "seriesId": 34,
     "name": "帖尼斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101496_帖尼斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101496_帖尼斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2746,7 +2746,7 @@ var IMAGES = [
     "id": 302,
     "seriesId": 34,
     "name": "塔斯摩米",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101572_塔斯摩米.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101572_塔斯摩米.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2754,7 +2754,7 @@ var IMAGES = [
     "id": 303,
     "seriesId": 34,
     "name": "欧西摩米",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101573_欧西摩米.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101573_欧西摩米.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2762,7 +2762,7 @@ var IMAGES = [
     "id": 304,
     "seriesId": 34,
     "name": "洛德摩米",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101574_洛德摩米.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101574_洛德摩米.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2770,7 +2770,7 @@ var IMAGES = [
     "id": 305,
     "seriesId": 34,
     "name": "艾尔摩米",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101575_艾尔摩米.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101575_艾尔摩米.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2778,7 +2778,7 @@ var IMAGES = [
     "id": 306,
     "seriesId": 34,
     "name": "波比",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101578_波比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101578_波比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2786,7 +2786,7 @@ var IMAGES = [
     "id": 307,
     "seriesId": 34,
     "name": "查洛奇斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101607_查洛奇斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101607_查洛奇斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2794,7 +2794,7 @@ var IMAGES = [
     "id": 308,
     "seriesId": 34,
     "name": "查洛可利",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101608_查洛可利.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101608_查洛可利.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2802,7 +2802,7 @@ var IMAGES = [
     "id": 309,
     "seriesId": 34,
     "name": "查洛毕尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101609_查洛毕尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101609_查洛毕尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2810,7 +2810,7 @@ var IMAGES = [
     "id": 310,
     "seriesId": 34,
     "name": "查洛比克",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101610_查洛比克.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101610_查洛比克.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2818,7 +2818,7 @@ var IMAGES = [
     "id": 311,
     "seriesId": 34,
     "name": "史卡皮诺",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101612_史卡皮诺.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101612_史卡皮诺.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2826,7 +2826,7 @@ var IMAGES = [
     "id": 312,
     "seriesId": 34,
     "name": "史卡皮克",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101613_史卡皮克.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101613_史卡皮克.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2834,7 +2834,7 @@ var IMAGES = [
     "id": 313,
     "seriesId": 34,
     "name": "史卡皮奥",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101614_史卡皮奥.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101614_史卡皮奥.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2842,7 +2842,7 @@ var IMAGES = [
     "id": 314,
     "seriesId": 34,
     "name": "史卡皮顿",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101615_史卡皮顿.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101615_史卡皮顿.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2850,7 +2850,7 @@ var IMAGES = [
     "id": 315,
     "seriesId": 34,
     "name": "菲奇亚",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101616_菲奇亚.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101616_菲奇亚.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2858,7 +2858,7 @@ var IMAGES = [
     "id": 316,
     "seriesId": 34,
     "name": "巴罗多",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101617_巴罗多.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101617_巴罗多.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2866,7 +2866,7 @@ var IMAGES = [
     "id": 317,
     "seriesId": 34,
     "name": "巴罗特",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101618_巴罗特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101618_巴罗特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2874,7 +2874,7 @@ var IMAGES = [
     "id": 318,
     "seriesId": 34,
     "name": "库胖达",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101713_库胖达.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101713_库胖达.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2882,7 +2882,7 @@ var IMAGES = [
     "id": 319,
     "seriesId": 34,
     "name": "欧胖达",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101714_欧胖达.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101714_欧胖达.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2890,7 +2890,7 @@ var IMAGES = [
     "id": 320,
     "seriesId": 34,
     "name": "胖达利",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101719_胖达利.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101719_胖达利.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2898,7 +2898,7 @@ var IMAGES = [
     "id": 321,
     "seriesId": 34,
     "name": "胖达多",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101720_胖达多.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101720_胖达多.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2906,7 +2906,7 @@ var IMAGES = [
     "id": 322,
     "seriesId": 34,
     "name": "贝里莱欧",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101725_贝里莱欧.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101725_贝里莱欧.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2914,7 +2914,7 @@ var IMAGES = [
     "id": 323,
     "seriesId": 34,
     "name": "萨法莱欧",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101726_萨法莱欧.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101726_萨法莱欧.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2922,7 +2922,7 @@ var IMAGES = [
     "id": 324,
     "seriesId": 34,
     "name": "鲁贝莱欧",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101727_鲁贝莱欧.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101727_鲁贝莱欧.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2930,7 +2930,7 @@ var IMAGES = [
     "id": 325,
     "seriesId": 34,
     "name": "多帕莱欧",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101728_多帕莱欧.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101728_多帕莱欧.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2938,7 +2938,7 @@ var IMAGES = [
     "id": 326,
     "seriesId": 34,
     "name": "萨德斯凯",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101736_萨德斯凯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101736_萨德斯凯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2946,7 +2946,7 @@ var IMAGES = [
     "id": 327,
     "seriesId": 34,
     "name": "萨德迪比",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101737_萨德迪比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101737_萨德迪比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2954,7 +2954,7 @@ var IMAGES = [
     "id": 328,
     "seriesId": 34,
     "name": "弗丽雅",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101743_弗丽雅.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101743_弗丽雅.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2962,7 +2962,7 @@ var IMAGES = [
     "id": 329,
     "seriesId": 34,
     "name": "弗丽露",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101744_弗丽露.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101744_弗丽露.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2970,7 +2970,7 @@ var IMAGES = [
     "id": 330,
     "seriesId": 34,
     "name": "佛克斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101748_佛克斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101748_佛克斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2978,7 +2978,7 @@ var IMAGES = [
     "id": 331,
     "seriesId": 34,
     "name": "伦迪",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101761_伦迪.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101761_伦迪.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2986,7 +2986,7 @@ var IMAGES = [
     "id": 332,
     "seriesId": 34,
     "name": "奇朋菲德",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101762_奇朋菲德.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101762_奇朋菲德.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -2994,7 +2994,7 @@ var IMAGES = [
     "id": 333,
     "seriesId": 34,
     "name": "奇朋亚斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101763_奇朋亚斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101763_奇朋亚斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3002,7 +3002,7 @@ var IMAGES = [
     "id": 334,
     "seriesId": 34,
     "name": "奇朋德美",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101764_奇朋德美.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101764_奇朋德美.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3010,7 +3010,7 @@ var IMAGES = [
     "id": 335,
     "seriesId": 34,
     "name": "奇朋洛依",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101765_奇朋洛依.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101765_奇朋洛依.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3018,7 +3018,7 @@ var IMAGES = [
     "id": 336,
     "seriesId": 34,
     "name": "哈利恩斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101816_哈利恩斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101816_哈利恩斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3026,7 +3026,7 @@ var IMAGES = [
     "id": 337,
     "seriesId": 34,
     "name": "布里萨尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101866_布里萨尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101866_布里萨尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3034,7 +3034,7 @@ var IMAGES = [
     "id": 338,
     "seriesId": 34,
     "name": "沃克比",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101867_沃克比.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101867_沃克比.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3042,7 +3042,7 @@ var IMAGES = [
     "id": 339,
     "seriesId": 34,
     "name": "沃斯姆",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101868_沃斯姆.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101868_沃斯姆.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3050,7 +3050,7 @@ var IMAGES = [
     "id": 340,
     "seriesId": 34,
     "name": "巴雅",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101869_巴雅.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101869_巴雅.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3058,7 +3058,7 @@ var IMAGES = [
     "id": 341,
     "seriesId": 34,
     "name": "巴特",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101870_巴特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101870_巴特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3066,7 +3066,7 @@ var IMAGES = [
     "id": 342,
     "seriesId": 34,
     "name": "莱恩奇夫",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101872_莱恩奇夫.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101872_莱恩奇夫.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3074,7 +3074,7 @@ var IMAGES = [
     "id": 343,
     "seriesId": 34,
     "name": "莱恩洛克",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101873_莱恩洛克.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101873_莱恩洛克.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3082,7 +3082,7 @@ var IMAGES = [
     "id": 344,
     "seriesId": 34,
     "name": "怀沃夫",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101875_怀沃夫.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101875_怀沃夫.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3090,7 +3090,7 @@ var IMAGES = [
     "id": 345,
     "seriesId": 34,
     "name": "菲尔特",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101879_菲尔特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101879_菲尔特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3098,7 +3098,7 @@ var IMAGES = [
     "id": 346,
     "seriesId": 34,
     "name": "布林特",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101880_布林特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101880_布林特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3106,7 +3106,7 @@ var IMAGES = [
     "id": 347,
     "seriesId": 34,
     "name": "奈坎特",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101881_奈坎特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101881_奈坎特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3114,7 +3114,7 @@ var IMAGES = [
     "id": 348,
     "seriesId": 34,
     "name": "奈宇罗",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101882_奈宇罗.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101882_奈宇罗.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3122,7 +3122,7 @@ var IMAGES = [
     "id": 349,
     "seriesId": 34,
     "name": "德古德贝特",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101953_德古德贝特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101953_德古德贝特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3130,7 +3130,7 @@ var IMAGES = [
     "id": 350,
     "seriesId": 34,
     "name": "奇斯古德",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101954_奇斯古德.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101954_奇斯古德.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3138,7 +3138,7 @@ var IMAGES = [
     "id": 351,
     "seriesId": 34,
     "name": "塔拉古德",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101955_塔拉古德.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101955_塔拉古德.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3146,7 +3146,7 @@ var IMAGES = [
     "id": 352,
     "seriesId": 34,
     "name": "赫古德",
-    "thumbnailUrl": "http://localhost:5173/series-images/28_特殊系/101956_赫古德.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/28_特殊系/101956_赫古德.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3154,7 +3154,7 @@ var IMAGES = [
     "id": 353,
     "seriesId": 35,
     "name": "库玛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/30_熊系/101444_库玛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/30_熊系/101444_库玛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3162,7 +3162,7 @@ var IMAGES = [
     "id": 354,
     "seriesId": 35,
     "name": "雷玛特",
-    "thumbnailUrl": "http://localhost:5173/series-images/30_熊系/101445_雷玛特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/30_熊系/101445_雷玛特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3170,7 +3170,7 @@ var IMAGES = [
     "id": 355,
     "seriesId": 35,
     "name": "菲斯玛",
-    "thumbnailUrl": "http://localhost:5173/series-images/30_熊系/101446_菲斯玛.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/30_熊系/101446_菲斯玛.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3178,7 +3178,7 @@ var IMAGES = [
     "id": 356,
     "seriesId": 35,
     "name": "贝库尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/30_熊系/101447_贝库尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/30_熊系/101447_贝库尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3186,7 +3186,7 @@ var IMAGES = [
     "id": 357,
     "seriesId": 36,
     "name": "史奈克特",
-    "thumbnailUrl": "http://localhost:5173/series-images/31_三头蛇/101448_史奈克特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/31_三头蛇/101448_史奈克特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3194,7 +3194,7 @@ var IMAGES = [
     "id": 358,
     "seriesId": 36,
     "name": "葛利斯奈",
-    "thumbnailUrl": "http://localhost:5173/series-images/31_三头蛇/101449_葛利斯奈.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/31_三头蛇/101449_葛利斯奈.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3202,7 +3202,7 @@ var IMAGES = [
     "id": 359,
     "seriesId": 36,
     "name": "艾柏瑞(蛇)",
-    "thumbnailUrl": "http://localhost:5173/series-images/31_三头蛇/101450_艾柏瑞(蛇).gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/31_三头蛇/101450_艾柏瑞(蛇).gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3210,7 +3210,7 @@ var IMAGES = [
     "id": 360,
     "seriesId": 36,
     "name": "拉特利",
-    "thumbnailUrl": "http://localhost:5173/series-images/31_三头蛇/101451_拉特利.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/31_三头蛇/101451_拉特利.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3218,7 +3218,7 @@ var IMAGES = [
     "id": 361,
     "seriesId": 37,
     "name": "毕格艾斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/32_海龙系/101452_毕格艾斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/32_海龙系/101452_毕格艾斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3226,7 +3226,7 @@ var IMAGES = [
     "id": 362,
     "seriesId": 37,
     "name": "裘比斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/32_海龙系/101453_裘比斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/32_海龙系/101453_裘比斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3234,7 +3234,7 @@ var IMAGES = [
     "id": 363,
     "seriesId": 37,
     "name": "阿卡西斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/32_海龙系/101454_阿卡西斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/32_海龙系/101454_阿卡西斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3242,7 +3242,7 @@ var IMAGES = [
     "id": 364,
     "seriesId": 37,
     "name": "洛可洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/32_海龙系/101455_洛可洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/32_海龙系/101455_洛可洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3250,7 +3250,7 @@ var IMAGES = [
     "id": 365,
     "seriesId": 38,
     "name": "法兹蒙特",
-    "thumbnailUrl": "http://localhost:5173/series-images/33_火山龟系/101456_法兹蒙特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/33_火山龟系/101456_法兹蒙特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3258,7 +3258,7 @@ var IMAGES = [
     "id": 366,
     "seriesId": 38,
     "name": "雷格特",
-    "thumbnailUrl": "http://localhost:5173/series-images/33_火山龟系/101457_雷格特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/33_火山龟系/101457_雷格特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3266,7 +3266,7 @@ var IMAGES = [
     "id": 367,
     "seriesId": 38,
     "name": "洛克尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/33_火山龟系/101458_洛克尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/33_火山龟系/101458_洛克尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3274,7 +3274,7 @@ var IMAGES = [
     "id": 368,
     "seriesId": 38,
     "name": "米恩斯特",
-    "thumbnailUrl": "http://localhost:5173/series-images/33_火山龟系/101459_米恩斯特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/33_火山龟系/101459_米恩斯特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3282,7 +3282,7 @@ var IMAGES = [
     "id": 369,
     "seriesId": 39,
     "name": "利西亚",
-    "thumbnailUrl": "http://localhost:5173/series-images/34_小蜥蜴系/101460_利西亚.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/34_小蜥蜴系/101460_利西亚.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3290,7 +3290,7 @@ var IMAGES = [
     "id": 370,
     "seriesId": 39,
     "name": "佩罗亚",
-    "thumbnailUrl": "http://localhost:5173/series-images/34_小蜥蜴系/101461_佩罗亚.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/34_小蜥蜴系/101461_佩罗亚.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3298,7 +3298,7 @@ var IMAGES = [
     "id": 371,
     "seriesId": 39,
     "name": "伊利曼亚",
-    "thumbnailUrl": "http://localhost:5173/series-images/34_小蜥蜴系/101462_伊利曼亚.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/34_小蜥蜴系/101462_伊利曼亚.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3306,7 +3306,7 @@ var IMAGES = [
     "id": 372,
     "seriesId": 39,
     "name": "卡力洛亚",
-    "thumbnailUrl": "http://localhost:5173/series-images/34_小蜥蜴系/101463_卡力洛亚.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/34_小蜥蜴系/101463_卡力洛亚.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3314,7 +3314,7 @@ var IMAGES = [
     "id": 373,
     "seriesId": 40,
     "name": "拉佛洛斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/35_肥龙系/101464_拉佛洛斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/35_肥龙系/101464_拉佛洛斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3322,7 +3322,7 @@ var IMAGES = [
     "id": 374,
     "seriesId": 40,
     "name": "利普多尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/35_肥龙系/101465_利普多尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/35_肥龙系/101465_利普多尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3330,7 +3330,7 @@ var IMAGES = [
     "id": 375,
     "seriesId": 40,
     "name": "邦克普斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/35_肥龙系/101466_邦克普斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/35_肥龙系/101466_邦克普斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3338,7 +3338,7 @@ var IMAGES = [
     "id": 376,
     "seriesId": 40,
     "name": "奥普萨斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/35_肥龙系/101467_奥普萨斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/35_肥龙系/101467_奥普萨斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3346,7 +3346,7 @@ var IMAGES = [
     "id": 377,
     "seriesId": 41,
     "name": "迪亚古斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/36_青蛙系/101468_迪亚古斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/36_青蛙系/101468_迪亚古斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3354,7 +3354,7 @@ var IMAGES = [
     "id": 378,
     "seriesId": 41,
     "name": "马鲁古斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/36_青蛙系/101469_马鲁古斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/36_青蛙系/101469_马鲁古斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3362,7 +3362,7 @@ var IMAGES = [
     "id": 379,
     "seriesId": 41,
     "name": "尔洛普",
-    "thumbnailUrl": "http://localhost:5173/series-images/36_青蛙系/101470_尔洛普.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/36_青蛙系/101470_尔洛普.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3370,7 +3370,7 @@ var IMAGES = [
     "id": 380,
     "seriesId": 41,
     "name": "卡克普",
-    "thumbnailUrl": "http://localhost:5173/series-images/36_青蛙系/101471_卡克普.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/36_青蛙系/101471_卡克普.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3378,7 +3378,7 @@ var IMAGES = [
     "id": 381,
     "seriesId": 42,
     "name": "西修",
-    "thumbnailUrl": "http://localhost:5173/series-images/37_飞机头系/101472_西修.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/37_飞机头系/101472_西修.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3386,7 +3386,7 @@ var IMAGES = [
     "id": 382,
     "seriesId": 42,
     "name": "哈尔修",
-    "thumbnailUrl": "http://localhost:5173/series-images/37_飞机头系/101473_哈尔修.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/37_飞机头系/101473_哈尔修.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3394,7 +3394,7 @@ var IMAGES = [
     "id": 383,
     "seriesId": 42,
     "name": "弗利修",
-    "thumbnailUrl": "http://localhost:5173/series-images/37_飞机头系/101474_弗利修.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/37_飞机头系/101474_弗利修.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3402,7 +3402,7 @@ var IMAGES = [
     "id": 384,
     "seriesId": 42,
     "name": "巴利",
-    "thumbnailUrl": "http://localhost:5173/series-images/37_飞机头系/101475_巴利.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/37_飞机头系/101475_巴利.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3410,7 +3410,7 @@ var IMAGES = [
     "id": 385,
     "seriesId": 43,
     "name": "雅特拉斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/38_飞马系/101476_雅特拉斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/38_飞马系/101476_雅特拉斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3418,7 +3418,7 @@ var IMAGES = [
     "id": 386,
     "seriesId": 43,
     "name": "伊利亚德",
-    "thumbnailUrl": "http://localhost:5173/series-images/38_飞马系/101477_伊利亚德.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/38_飞马系/101477_伊利亚德.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3426,7 +3426,7 @@ var IMAGES = [
     "id": 387,
     "seriesId": 43,
     "name": "米尼奈巴",
-    "thumbnailUrl": "http://localhost:5173/series-images/38_飞马系/101478_米尼奈巴.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/38_飞马系/101478_米尼奈巴.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3434,7 +3434,7 @@ var IMAGES = [
     "id": 388,
     "seriesId": 43,
     "name": "德拉斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/38_飞马系/101479_德拉斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/38_飞马系/101479_德拉斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3442,7 +3442,7 @@ var IMAGES = [
     "id": 389,
     "seriesId": 43,
     "name": "科伦特",
-    "thumbnailUrl": "http://localhost:5173/series-images/38_飞马系/101480_科伦特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/38_飞马系/101480_科伦特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3450,7 +3450,7 @@ var IMAGES = [
     "id": 390,
     "seriesId": 44,
     "name": "邦欧里",
-    "thumbnailUrl": "http://localhost:5173/series-images/39_刺球系/101481_邦欧里.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/39_刺球系/101481_邦欧里.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3458,7 +3458,7 @@ var IMAGES = [
     "id": 391,
     "seriesId": 44,
     "name": "加雷",
-    "thumbnailUrl": "http://localhost:5173/series-images/39_刺球系/101482_加雷.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/39_刺球系/101482_加雷.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3466,7 +3466,7 @@ var IMAGES = [
     "id": 392,
     "seriesId": 44,
     "name": "加古特",
-    "thumbnailUrl": "http://localhost:5173/series-images/39_刺球系/101483_加古特.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/39_刺球系/101483_加古特.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3474,7 +3474,7 @@ var IMAGES = [
     "id": 393,
     "seriesId": 44,
     "name": "邦西普",
-    "thumbnailUrl": "http://localhost:5173/series-images/39_刺球系/101484_邦西普.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/39_刺球系/101484_邦西普.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3482,7 +3482,7 @@ var IMAGES = [
     "id": 394,
     "seriesId": 45,
     "name": "伊亚欧莱",
-    "thumbnailUrl": "http://localhost:5173/series-images/40_剑龙系/101485_伊亚欧莱.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/40_剑龙系/101485_伊亚欧莱.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3490,7 +3490,7 @@ var IMAGES = [
     "id": 395,
     "seriesId": 45,
     "name": "拉格多鲁",
-    "thumbnailUrl": "http://localhost:5173/series-images/40_剑龙系/101486_拉格多鲁.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/40_剑龙系/101486_拉格多鲁.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3498,7 +3498,7 @@ var IMAGES = [
     "id": 396,
     "seriesId": 45,
     "name": "西顿克尔",
-    "thumbnailUrl": "http://localhost:5173/series-images/40_剑龙系/101487_西顿克尔.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/40_剑龙系/101487_西顿克尔.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   },
@@ -3506,36 +3506,52 @@ var IMAGES = [
     "id": 397,
     "seriesId": 45,
     "name": "克罗那斯",
-    "thumbnailUrl": "http://localhost:5173/series-images/40_剑龙系/101488_克罗那斯.gif",
+    "thumbnailUrl": "cloud://cloud1-d5gqwn87z8075a091.636c-cloud1-d5gqwn87z8075a091-1433959373/series-images/40_剑龙系/101488_克罗那斯.gif",
     "status": 1,
     "createdAt": "2026-05-16"
   }
 ]
 
+function sleep(ms) {
+  return new Promise(function (resolve) { setTimeout(resolve, ms) })
+}
+
+async function clearCollection(name) {
+  try {
+    var cnt = (await db.collection(name).count()).total
+    for (var i = 0; i < cnt; i++) {
+      var docs = (await db.collection(name).skip(0).limit(1).get()).data
+      if (docs.length === 0) break
+      await db.collection(name).doc(docs[0]._id).remove()
+      if (i %% 10 === 9) await sleep(200)
+    }
+  } catch(e) {}
+}
+
 exports.main = async function (event, context) {
-  var type = event.type // 'breeds' | 'images' | 'stats'
-  
-  if (type === 'stats') {
-    return { code: 200, data: { breeds: BREEDS.length, images: IMAGES.length } }
-  }
-  
+  var type = event.type
+
   if (type === 'breeds') {
-    var batch = []
+    await clearCollection('breeds')
+    var n = 0
     for (var i = 0; i < BREEDS.length; i++) {
-      batch.push(db.collection('breeds').add({ data: BREEDS[i] }))
+      await db.collection('breeds').add({ data: BREEDS[i] })
+      n++
+      if (n %% 5 === 0) await sleep(100)
     }
-    await Promise.all(batch)
-    return { code: 200, data: { imported: BREEDS.length } }
+    return { code: 200, data: { imported: n } }
   }
-  
+
   if (type === 'images') {
-    var batch = []
+    await clearCollection('images')
+    var n = 0
     for (var i = 0; i < IMAGES.length; i++) {
-      batch.push(db.collection('images').add({ data: IMAGES[i] }))
+      await db.collection('images').add({ data: IMAGES[i] })
+      n++
+      if (n %% 5 === 0) await sleep(200)
     }
-    await Promise.all(batch)
-    return { code: 200, data: { imported: IMAGES.length } }
+    return { code: 200, data: { imported: n } }
   }
-  
-  return { code: 400, message: 'type must be breeds, images, or stats' }
+
+  return { code: 400, message: 'type must be breeds or images' }
 }

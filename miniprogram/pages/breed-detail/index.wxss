@@ -3,8 +3,8 @@ page { background: #F5F6FA; }
 .page { min-height: 100vh; }
 
 /* 骨架屏 */
-.loading-wrap { display: flex; flex-wrap: wrap; gap: 16rpx; padding: 24rpx; }
-.sk-block { width: calc(50% - 8rpx); height: 200rpx; background: #E5E7EB; border-radius: 24rpx; }
+.loading-wrap { display: flex; flex-wrap: wrap; justify-content: space-between; padding: 24rpx; }
+.sk-block { width: calc(50% - 12rpx); height: 200rpx; background: #E5E7EB; border-radius: 24rpx; margin-bottom: 16rpx; }
 
 /* 空态 */
 .empty-wrap { display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 120rpx 48rpx; }
@@ -14,7 +14,8 @@ page { background: #F5F6FA; }
 /* 品种信息头 */
 .breed-header { background: #FFFFFF; padding: 32rpx; margin-bottom: 16rpx; }
 .back-link { display: inline-block; color: #4F6EF7; font-size: 28rpx; margin-bottom: 24rpx; }
-.breed-info-row { display: flex; gap: 24rpx; }
+.breed-info-row { display: flex; }
+.breed-info-row > .breed-cover { margin-right: 24rpx; }
 .breed-cover { width: 160rpx; height: 160rpx; border-radius: 16rpx; flex-shrink: 0; background: #F9FAFB; padding: 12rpx; box-sizing: border-box; }
 .breed-cover-ph { width: 160rpx; height: 160rpx; border-radius: 16rpx; flex-shrink: 0; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #EEF0FF, #E8EAFF); }
 .ph-icon { font-size: 64rpx; }
@@ -24,8 +25,8 @@ page { background: #F5F6FA; }
 .breed-count { display: block; font-size: 24rpx; color: #9CA3AF; }
 
 /* 图片网格 */
-.img-grid { display: flex; flex-wrap: wrap; gap: 12rpx; padding: 0 24rpx 24rpx; }
-.img-card { width: calc(33.33% - 8rpx); background: #FFFFFF; border-radius: 16rpx; overflow: hidden; }
+.img-grid { display: flex; flex-wrap: wrap; justify-content: space-between; padding: 0 24rpx 24rpx; }
+.img-card { width: calc(33.33% - 10rpx); background: #FFFFFF; border-radius: 16rpx; overflow: hidden; margin-bottom: 12rpx; }
 .img-thumb { width: 100%; height: 240rpx; background: #F9FAFB; padding: 12rpx; box-sizing: border-box; }
 .img-ph { width: 100%; height: 240rpx; display: flex; align-items: center; justify-content: center; background: #F3F4F6; }
 .img-name-wrap { padding: 12rpx 16rpx; }

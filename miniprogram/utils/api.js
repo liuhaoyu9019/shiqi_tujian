@@ -22,8 +22,8 @@ function buildCloudFileId(relativePath) {
   if (!relativePath) return ''
   // 去掉路径开头的 /
   var path = relativePath.indexOf('/') === 0 ? relativePath.slice(1) : relativePath
-  // cloud:// 格式：cloud://env-id.6e65-env-id-xxxxxxxxx/path
-  return 'cloud://' + CLOUD_ENV_ID + '.6e65-' + CLOUD_ENV_ID + '-1251000628/' + path
+  // cloud:// 格式：cloud://env-id.636c-env-id-1433959373/path
+  return 'cloud://' + CLOUD_ENV_ID + '.636c-' + CLOUD_ENV_ID + '-1433959373/' + path
 }
 
 // ==================== 图片 URL 修复 ====================
@@ -195,10 +195,7 @@ function cloudCall(name, data) {
 
 function fetchSeries() {
   if (MODE === 'cloud') {
-    return cloudCall('getBreeds').then(function (data) {
-      var fixed = data.map(fixBreed)
-      return resolveBreedImages(fixed)
-    })
+    return cloudCall('getBreeds')
   }
   return httpRequest('/box/series').then(function (data) {
     return data.map(fixBreed)
@@ -207,10 +204,7 @@ function fetchSeries() {
 
 function fetchSeriesById(id) {
   if (MODE === 'cloud') {
-    return cloudCall('getBreedDetail', { seriesId: id }).then(function (data) {
-      var fixed = fixBreed(data)
-      return resolveBreedImages([fixed]).then(function (list) { return list[0] })
-    })
+    return cloudCall('getBreedDetail', { seriesId: id })
   }
   return httpRequest('/box/series/' + id).then(function (data) {
     return fixBreed(data)
@@ -219,10 +213,7 @@ function fetchSeriesById(id) {
 
 function fetchItemsBySeries(seriesId) {
   if (MODE === 'cloud') {
-    return cloudCall('getBreedImages', { seriesId: seriesId }).then(function (data) {
-      var fixed = data.map(fixImage)
-      return resolveItemImages(fixed)
-    })
+    return cloudCall('getBreedImages', { seriesId: seriesId })
   }
   return httpRequest('/box/series/' + seriesId + '/items').then(function (data) {
     return data.map(fixImage)
