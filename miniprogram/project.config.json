@@ -2,7 +2,7 @@
   "miniprogramRoot": "./",
   "projectname": "pet-gallery",
   "description": "宠物品种图鉴",
-  "appid": "wx4109f7b8f2c2e08c",
+  "appid": "wx4b7f56bc0758f753",
   "setting": {
     "urlCheck": false,
     "es6": true,
@@ -44,8 +44,12 @@
     "disableSWC": true,
     "useCompilerPlugins": false
   },
+  "cloudfunctionRoot": "cloudfunctions/",
+  "cloud": {
+    "env": "cloud1-d5gqwn87z8075a091"
+  },
   "compileType": "miniprogram",
-  "libVersion": "3.3.4",
+  "libVersion": "3.16.0",
   "packOptions": {
     "ignore": [],
     "include": []
@@ -54,5 +58,6 @@
     "tabIndent": "insertSpaces",
     "tabSize": 2
   },
-  "simulatorPluginLibVersion": {}
+  "simulatorPluginLibVersion": {},
+  "cloudfunctionTemplateRoot": "cloudfunctionTemplate/"
 }

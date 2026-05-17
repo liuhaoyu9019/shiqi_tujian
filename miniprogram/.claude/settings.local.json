@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:5173/api/box/series)",
+      "Bash(npm run *)",
+      "Bash(curl -s http://localhost:5173/api/box/series)",
+      "Skill(update-config)",
+      "Skill(update-config:*)",
+      "Bash(which jq *)",
+      "Read(//d//**)",
+      "Bash(python3 -c *)",
+      "Bash(python -c \"import json,sys; print\\(json.load\\(sys.stdin\\).get\\('prompt',''\\)\\)\")",
+      "Bash(python -c \"import json; json.load\\(open\\('d:/project/shiqi_tujian/miniprogram/.claude/settings.local.json'\\)\\); print\\('JSON valid'\\)\")",
+      "Bash(python -c \"import json; d=json.load\\(open\\('d:/project/shiqi_tujian/miniprogram/.claude/settings.local.json'\\)\\); print\\('hooks' in d\\)\")",
+      "Bash(python \"d:/project/shiqi_tujian/miniprogram/.claude/record-prompt.py\")",
+      "Bash(python -c ' *)",
+      "Bash(python -c \"import json; d=json.load\\(open\\('d:/project/shiqi_tujian/miniprogram/.claude/settings.local.json', encoding='utf-8-sig'\\)\\); print\\('hooks' in d and 'UserPromptSubmit' in d.get\\('hooks',{}\\)\\); print\\(json.dumps\\(d['hooks'], indent=2, ensure_ascii=False\\)\\)\")",
+      "Bash(echo \"EXIT:$?\")",
+      "Skill(context-save)",
+      "Skill(context-save:*)"
+    ]
+  }
+}

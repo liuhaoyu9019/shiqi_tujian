@@ -1,0 +1,9 @@
+{
+  "name": "getBreedDetail",
+  "version": "1.0.0",
+  "description": "返回单个品种详情",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "latest"
+  }
+}

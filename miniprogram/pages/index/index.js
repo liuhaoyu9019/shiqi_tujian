@@ -9,12 +9,9 @@ Page({
 
   onLoad: function () {
     var that = this
-    wx.showLoading({ title: '加载中...' })
     api.fetchSeries().then(function (breeds) {
-      wx.hideLoading()
       that.setData({ breeds: breeds, loading: false })
     }).catch(function (e) {
-      wx.hideLoading()
       that.setData({ error: e.message || '加载失败', loading: false })
     })
   },

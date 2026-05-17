@@ -1,0 +1,1 @@
+{"name":"importData","version":"1.0.0","description":"一次性导入品种和图片数据到云数据库","main":"index.js","dependencies":{"wx-server-sdk":"latest"}}

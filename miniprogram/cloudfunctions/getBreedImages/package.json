@@ -1,0 +1,9 @@
+{
+  "name": "getBreedImages",
+  "version": "1.0.0",
+  "description": "返回某品种下所有图片",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "latest"
+  }
+}
