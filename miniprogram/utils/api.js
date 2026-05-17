@@ -211,9 +211,11 @@ function fetchSeriesById(id) {
   })
 }
 
-function fetchItemsBySeries(seriesId) {
+function fetchItemsBySeries(seriesId, page, size) {
+  page = page || 1
+  size = size || 20
   if (MODE === 'cloud') {
-    return cloudCall('getBreedImages', { seriesId: seriesId })
+    return cloudCall('getBreedImages', { seriesId: seriesId, page: page, size: size })
   }
   return httpRequest('/box/series/' + seriesId + '/items').then(function (data) {
     return data.map(fixImage)

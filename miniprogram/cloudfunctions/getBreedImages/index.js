@@ -20,10 +20,13 @@ exports.main = async function (event, context) {
   var seriesId = Number(event.seriesId)
   if (!seriesId) return { code: 400, message: '品种ID无效' }
 
+  var page = Number(event.page) || 1
+  var size = Math.min(Number(event.size) || 20, 20)
+
   try {
     var result = await db.collection('images').where({ seriesId: seriesId }).get()
 
-    // 按名称去重（保留第一个）
+    // 按名称去重
     var seen = {}
     var deduped = []
     for (var d = 0; d < result.data.length; d++) {
@@ -32,25 +35,29 @@ exports.main = async function (event, context) {
         deduped.push(result.data[d])
       }
     }
-    result.data = deduped
 
+    var total = deduped.length
+    var start = (page - 1) * size
+    var paged = deduped.slice(start, start + size)
+
+    // 只转换当前页的图片URL
     var fileIds = []
-    for (var i = 0; i < result.data.length; i++) {
-      var url = result.data[i].thumbnailUrl
+    for (var i = 0; i < paged.length; i++) {
+      var url = paged[i].thumbnailUrl
       if (url && url.indexOf('cloud://') === 0) fileIds.push(url)
     }
 
     if (fileIds.length > 0) {
       var map = await batchGetUrls(fileIds)
-      for (var k = 0; k < result.data.length; k++) {
-        if (map[result.data[k].thumbnailUrl]) {
-          result.data[k].thumbnailUrl = map[result.data[k].thumbnailUrl]
+      for (var k = 0; k < paged.length; k++) {
+        if (map[paged[k].thumbnailUrl]) {
+          paged[k].thumbnailUrl = map[paged[k].thumbnailUrl]
         }
       }
     }
 
-    return { code: 200, data: result.data }
+    return { code: 200, data: { images: paged, total: total, page: page, size: size } }
   } catch (e) {
-    return { code: 200, data: [] }
+    return { code: 200, data: { images: [], total: 0, page: 1, size: size } }
   }
 }
