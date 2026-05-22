@@ -5,9 +5,9 @@
 //   'cloud' → 走微信云函数，使用 wx.cloud.callFunction
 //
 // 云函数模式下图片处理：
-//   数据返回的 thumbnailUrl / coverUrl 如果是云存储 fileID（cloud:// 开头），
-//   调用 batchGetTempFileURL 批量换取临时 HTTPS 链接。
-//   如果是相对路径（/series-images/...），则由 buildCloudFileId 拼成 fileID。
+//   云函数 getBreedImages 返回 thumbnailUrl（JPEG缩略图） + originalUrl（GIF原图）
+//   thumbnailUrl 用于网格列表快速展示，originalUrl 用于弹窗查看动图。
+//   封面图 coverUrl 已由云函数处理为 JPEG 缩略图。
 
 var MODE = 'cloud' // 'dev' | 'cloud' — 生产环境改为 'cloud'
 
@@ -43,9 +43,11 @@ function fixBreed(b) {
   return Object.assign({}, b, { coverUrl: fixImageUrl(b.coverUrl) })
 }
 
-/** 修复图片数据中的 thumbnailUrl */
+/** 修复图片数据中的 thumbnailUrl / originalUrl */
 function fixImage(img) {
-  return Object.assign({}, img, { thumbnailUrl: fixImageUrl(img.thumbnailUrl) })
+  var result = { thumbnailUrl: fixImageUrl(img.thumbnailUrl) }
+  result.originalUrl = fixImageUrl(img.originalUrl || img.thumbnailUrl)
+  return Object.assign({}, img, result)
 }
 
 // ==================== 云存储批量临时链接 ====================
@@ -110,23 +112,34 @@ function resolveBreedImages(breeds) {
 }
 
 /**
- * 对图片列表应用临时链接
+ * 对图片列表应用临时链接（同时处理 thumbnailUrl 和 originalUrl）
  */
 function resolveItemImages(items) {
-  var fileIds = []
+  var thumbIds = []
+  var origIds = []
   for (var i = 0; i < items.length; i++) {
-    var url = items[i].thumbnailUrl
-    if (url && url.indexOf('cloud://') === 0) {
-      fileIds.push(url)
-    }
+    var thumb = items[i].thumbnailUrl
+    var orig = items[i].originalUrl
+    if (thumb && thumb.indexOf('cloud://') === 0) thumbIds.push(thumb)
+    if (orig && orig.indexOf('cloud://') === 0) origIds.push(orig)
   }
-  if (fileIds.length === 0) return Promise.resolve(items)
 
-  return batchGetTempFileURL(fileIds).then(function (map) {
+  if (thumbIds.length === 0 && origIds.length === 0) return Promise.resolve(items)
+
+  var tasks = []
+  if (thumbIds.length > 0) tasks.push(batchGetTempFileURL(thumbIds))
+  if (origIds.length > 0) tasks.push(batchGetTempFileURL(origIds))
+
+  return Promise.all(tasks).then(function (results) {
+    var thumbMap = results[0] || {}
+    var origMap = results[1] || {}
+
     for (var i = 0; i < items.length; i++) {
-      var url = items[i].thumbnailUrl
-      if (map[url]) {
-        items[i].thumbnailUrl = map[url]
+      if (thumbMap[items[i].thumbnailUrl]) {
+        items[i].thumbnailUrl = thumbMap[items[i].thumbnailUrl]
+      }
+      if (items[i].originalUrl && origMap[items[i].originalUrl]) {
+        items[i].originalUrl = origMap[items[i].originalUrl]
       }
     }
     return items

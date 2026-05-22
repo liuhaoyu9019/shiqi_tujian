@@ -17,7 +17,9 @@
       "Bash(python -c \"import json; d=json.load\\(open\\('d:/project/shiqi_tujian/miniprogram/.claude/settings.local.json', encoding='utf-8-sig'\\)\\); print\\('hooks' in d and 'UserPromptSubmit' in d.get\\('hooks',{}\\)\\); print\\(json.dumps\\(d['hooks'], indent=2, ensure_ascii=False\\)\\)\")",
       "Bash(echo \"EXIT:$?\")",
       "Skill(context-save)",
-      "Skill(context-save:*)"
+      "Skill(context-save:*)",
+      "Bash(git -C \"d:/project/shiqi_tujian\" diff --stat HEAD)",
+      "Bash(git -C \"d:/project/shiqi_tujian\" log --oneline -10)"
     ]
   }
 }

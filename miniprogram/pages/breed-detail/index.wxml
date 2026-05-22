@@ -1,10 +1,9 @@
 <view class="page">
 
-  <view wx:if="{{loading}}" class="loading-wrap">
-    <view class="sk-block-h" />
-    <view class="sk-block" /><view class="sk-block" />
-    <view class="sk-block" /><view class="sk-block" />
-    <view class="sk-block" /><view class="sk-block" />
+  <!-- 品种信息加载中 -->
+  <view wx:if="{{loading}}" class="init-loading">
+    <view class="init-spinner"></view>
+    <text class="init-text">加载中...</text>
   </view>
 
   <view wx:elif="{{error}}" class="empty-wrap" bindtap="loadBreed">
@@ -23,7 +22,7 @@
     <view class="breed-header">
       <view class="back-link" bindtap="onBack">← 返回</view>
       <view class="breed-info-row">
-        <image wx:if="{{breed.coverUrl}}" src="{{breed.coverUrl}}" mode="aspectFit" class="breed-cover" lazy-load />
+        <image wx:if="{{breed.coverUrl}}" src="{{breed.coverUrl}}" mode="aspectFit" class="breed-cover" />
         <view wx:else class="breed-cover-ph"><text class="ph-icon">🐾</text></view>
         <view class="breed-meta">
           <text class="breed-name">{{breed.name || '未命名'}}</text>
@@ -33,28 +32,46 @@
       </view>
     </view>
 
-    <!-- 图片骨架屏 -->
-    <view wx:if="{{imagesLoading}}" class="img-grid">
-      <view class="img-card-ph" /><view class="img-card-ph" />
-      <view class="img-card-ph" /><view class="img-card-ph" />
-      <view class="img-card-ph" /><view class="img-card-ph" />
+    <!-- 首屏图片进度条 -->
+    <view wx:if="{{showProgress}}" class="progress-wrap">
+      <view class="progress-card">
+        <view class="progress-icon-wrap">
+          <text class="progress-icon">🐾</text>
+        </view>
+        <view class="progress-bar">
+          <view class="progress-fill" style="width: {{imgProgress}}%;">
+            <view class="progress-shimmer"></view>
+          </view>
+        </view>
+        <text class="progress-text">图片加载中 <text class="progress-num">{{imgProgress}}</text>%</text>
+        <text class="progress-hint">首次加载较慢，请耐心等待</text>
+      </view>
     </view>
 
-    <!-- 图片网格 -->
-    <view wx:elif="{{images.length === 0 && !imagesLoading}}" class="empty-wrap">
-      <text class="empty-icon">🖼️</text>
-      <text class="empty-text">暂无品种图片</text>
+    <!-- 隐藏预载区：首屏图片后台加载 -->
+    <view class="preload-zone" aria-hidden="true">
+      <block wx:for="{{images}}" wx:key="id">
+        <image wx:if="{{item.thumbnailUrl}}" src="{{item.thumbnailUrl}}" mode="aspectFit" class="preload-img" bindload="onImgLoad" binderror="onImgError" />
+      </block>
     </view>
-    <view wx:else class="img-grid">
+
+    <!-- 图片网格：首屏就绪后渲染 -->
+    <view wx:if="{{imgReady}}" class="img-grid grid-show">
       <view wx:for="{{images}}" wx:key="id" class="img-card" data-id="{{item.id}}" bindtap="onImageTap">
-        <image wx:if="{{item.thumbnailUrl}}" src="{{item.thumbnailUrl}}" mode="aspectFit" class="img-thumb" lazy-load />
+        <image wx:if="{{item.thumbnailUrl}}" src="{{item.thumbnailUrl}}" mode="aspectFit" class="img-thumb" />
         <view wx:else class="img-ph"><text>🐾</text></view>
         <view class="img-name-wrap"><text class="img-name">{{item.name || ''}}</text></view>
       </view>
     </view>
 
+    <!-- 图片加载后的空态 -->
+    <view wx:if="{{imgReady && images.length === 0}}" class="empty-wrap">
+      <text class="empty-icon">🖼️</text>
+      <text class="empty-text">暂无品种图片</text>
+    </view>
+
     <!-- 底部加载状态 -->
-    <view wx:if="{{!imagesLoading && images.length > 0}}" class="bottom-tip">
+    <view wx:if="{{imgReady && images.length > 0}}" class="bottom-tip">
       <view wx:if="{{loadingMore}}" class="bt-loading">
         <view class="bt-spinner" />
         <text>加载中…</text>
@@ -67,7 +84,7 @@
   <!-- 图片详情卡片 -->
   <view wx:if="{{detailImg}}" class="overlay" bindtap="onCloseDetail">
     <view class="detail-card" catchtap="">
-      <image wx:if="{{detailImg.thumbnailUrl}}" src="{{detailImg.thumbnailUrl}}" mode="aspectFit" class="detail-img" />
+      <image wx:if="{{detailImgSrc}}" src="{{detailImgSrc}}" mode="aspectFit" class="detail-img" />
       <view wx:else class="detail-ph"><text>🐾</text></view>
       <view class="detail-info">
         <text class="detail-name">{{detailImg.name || '未命名'}}</text>

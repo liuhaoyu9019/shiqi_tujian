@@ -3,13 +3,10 @@
     <image class="hero-bg" src="https://www.xmwan.com/ueditor/php/upload/image/20210521/1621575551484549.png" mode="scaleToFill" />
   </view>
 
-  <view wx:if="{{loading}}" class="loading-wrap">
-    <view class="sk-block" />
-    <view class="sk-block" />
-    <view class="sk-block" />
-    <view class="sk-block" />
-    <view class="sk-block" />
-    <view class="sk-block" />
+  <!-- API 请求中：简洁加载，不用骨架屏（避免像卡片轮廓） -->
+  <view wx:if="{{loading}}" class="init-loading">
+    <view class="init-spinner"></view>
+    <text class="init-text">加载中...</text>
   </view>
 
   <view wx:elif="{{error}}" class="empty-wrap" bindtap="onLoad">
@@ -23,18 +20,44 @@
     <text class="empty-text">暂无品种数据</text>
   </view>
 
-  <view wx:else class="grid">
-    <view wx:for="{{breeds}}" wx:key="id" class="card" data-id="{{item.id}}" bindtap="onBreedTap">
-      <image wx:if="{{item.coverUrl}}" src="{{item.coverUrl}}" mode="aspectFit" class="card-img" lazy-load />
-      <view wx:else class="card-ph"><text class="ph-icon">🐾</text></view>
-      <view class="card-info">
-        <text class="card-name">{{item.name}}</text>
-        <text class="card-desc">{{item.description}}</text>
+  <view wx:else class="main-area">
+
+    <!-- 进度条：数据到达后立即显示 -->
+    <view wx:if="{{showProgress}}" class="progress-wrap">
+      <view class="progress-card">
+        <view class="progress-icon-wrap">
+          <text class="progress-icon">🐾</text>
+        </view>
+        <view class="progress-bar">
+          <view class="progress-fill" style="width: {{imgProgress}}%;">
+            <view class="progress-shimmer"></view>
+          </view>
+        </view>
+        <text class="progress-text">图片加载中 <text class="progress-num">{{imgProgress}}</text>%</text>
+        <text class="progress-hint">首次加载较慢，请耐心等待</text>
+      </view>
+    </view>
+
+    <!-- 隐藏预载区：图片在此后台加载，完全不可见 -->
+    <view class="preload-zone" aria-hidden="true">
+      <block wx:for="{{breeds}}" wx:key="id">
+        <image wx:if="{{item.coverUrl}}" src="{{item.coverUrl}}" mode="aspectFit" class="preload-img" bindload="onImgLoad" binderror="onImgError" />
+      </block>
+    </view>
+
+    <!-- 可见网格：图片全部就绪后才渲染 -->
+    <view wx:if="{{imgReady}}" class="grid grid-show">
+      <view wx:for="{{breeds}}" wx:key="id" class="card" data-id="{{item.id}}" bindtap="onBreedTap">
+        <image wx:if="{{item.coverUrl}}" src="{{item.coverUrl}}" mode="aspectFit" class="card-img" />
+        <view wx:else class="card-ph"><text class="ph-icon">🐾</text></view>
+        <view class="card-info">
+          <text class="card-name">{{item.name}}</text>
+          <text class="card-desc">{{item.description}}</text>
+        </view>
       </view>
     </view>
   </view>
 
-  <!-- 免责声明 -->
   <view wx:if="{{!loading}}" class="disclaimer">
     <text class="disclaimer-text">本工具为玩家自制，非官方，素材仅供怀旧参考，版权归原方所有，侵权请联系删除。</text>
   </view>
