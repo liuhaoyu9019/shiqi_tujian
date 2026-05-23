@@ -13,19 +13,15 @@ async function readCache(fileIds) {
   if (fileIds.length === 0) return { hits: {}, misses: [] }
   try {
     var ids = fileIds.map(cacheKey)
-    var res = await db.collection(CACHE_COL)
-      .where({ _id: db.command.in(ids) })
-      .get()
+    var res = await db.collection(CACHE_COL).where({ _id: db.command.in(ids) }).get()
     var hits = {}
     var now = Date.now()
-    var valid = {}
     for (var i = 0; i < res.data.length; i++) {
-      if (res.data[i].expireAt > now) valid[res.data[i].fileId] = res.data[i].tempUrl
+      if (res.data[i].expireAt > now) hits[res.data[i].fileId] = res.data[i].tempUrl
     }
     var misses = []
     for (var j = 0; j < fileIds.length; j++) {
-      if (valid[fileIds[j]]) hits[fileIds[j]] = valid[fileIds[j]]
-      else misses.push(fileIds[j])
+      if (!hits[fileIds[j]]) misses.push(fileIds[j])
     }
     return { hits: hits, misses: misses }
   } catch (e) { return { hits: {}, misses: fileIds.slice() } }
@@ -44,22 +40,18 @@ async function writeCache(map) {
 async function batchGetUrls(fileIds) {
   var cache = await readCache(fileIds)
   var map = cache.hits
-
   if (cache.misses.length > 0) {
     var fresh = {}
     for (var i = 0; i < cache.misses.length; i += 50) {
       var chunk = cache.misses.slice(i, i + 50)
       var res = await cloud.getTempFileURL({ fileList: chunk })
       for (var j = 0; j < res.fileList.length; j++) {
-        if (res.fileList[j].tempFileURL) {
-          fresh[res.fileList[j].fileID] = res.fileList[j].tempFileURL
-        }
+        if (res.fileList[j].tempFileURL) fresh[res.fileList[j].fileID] = res.fileList[j].tempFileURL
       }
     }
     for (var k in fresh) { map[k] = fresh[k] }
     writeCache(fresh)
   }
-
   return map
 }
 
@@ -86,20 +78,32 @@ exports.main = async function (event, context) {
     var start = (page - 1) * size
     var paged = deduped.slice(start, start + size)
 
+    // 收集所有 cloud:// URL
     var fileIds = []
     for (var i = 0; i < paged.length; i++) {
-      var url = paged[i].thumbnailUrl
-      if (url && url.indexOf('cloud://') === 0) fileIds.push(url)
+      var t = paged[i].thumbnailUrl || ''
+      var o = paged[i].originalUrl || ''
+      if (t.indexOf('cloud://') === 0) fileIds.push(t)
+      if (o.indexOf('cloud://') === 0 && o !== t) fileIds.push(o)
     }
 
-    if (fileIds.length > 0) {
-      var map = await batchGetUrls(fileIds)
-      for (var k = 0; k < paged.length; k++) {
-        var rawUrl = paged[k].thumbnailUrl
-        if (rawUrl && map[rawUrl]) {
-          paged[k].thumbnailUrl = map[rawUrl] + '&imageMogr2/thumbnail/300x/cgif/1'
-          paged[k].originalUrl = map[rawUrl]
-        }
+    var urlMap = {}
+    if (fileIds.length > 0) urlMap = await batchGetUrls(fileIds)
+
+    for (var k = 0; k < paged.length; k++) {
+      var tUrl = paged[k].thumbnailUrl || ''
+      var oUrl = paged[k].originalUrl || ''
+
+      // 缩略图：cgif/1 只取第一帧（静态，加载快）
+      paged[k].isGif = (tUrl.indexOf('.gif') !== -1 || oUrl.indexOf('.gif') !== -1)
+
+      if (urlMap[tUrl]) {
+        paged[k].thumbnailUrl = urlMap[tUrl] + '&imageMogr2/thumbnail/300x/cgif/1'
+        // 原图：同一文件，不限制帧数（动图）
+        paged[k].originalUrl = urlMap[tUrl]
+      }
+      if (urlMap[oUrl] && oUrl !== tUrl) {
+        paged[k].originalUrl = urlMap[oUrl]
       }
     }
 

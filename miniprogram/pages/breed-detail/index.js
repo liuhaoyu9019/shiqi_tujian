@@ -126,9 +126,14 @@ Page({
       if (this.data.images[i].id === id) { item = this.data.images[i]; break }
     }
     if (item) {
+      // 使用当前点击图片自己的 originalUrl（已由云函数还原为旧动图链接）
+      var src = item.originalUrl || item.thumbnailUrl || ''
+      if (src.indexOf('cloud://') === 0) src = item.originalUrl || item.thumbnailUrl || ''
+      // 去掉 cgif/1 缩略图参数，恢复动图
+      src = src.replace(/&imageMogr2\/thumbnail\/\d+x\/cgif\/\d+/g, '')
       this.setData({
         detailImg: item,
-        detailImgSrc: item.originalUrl || item.thumbnailUrl || '',
+        detailImgSrc: src,
         detailDesc: item.name || '',
       })
     }

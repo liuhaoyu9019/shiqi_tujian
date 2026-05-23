@@ -1,0 +1,9 @@
+{
+  "name": "replaceImages",
+  "version": "1.0.0",
+  "description": "批量替换品种图片的云存储路径",
+  "main": "index.js",
+  "dependencies": {
+    "wx-server-sdk": "latest"
+  }
+}

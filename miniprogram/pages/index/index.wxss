@@ -2,7 +2,8 @@ page { background: #F5F6FA; }
 .page { min-height: 100vh; padding-bottom: 24rpx; }
 
 .hero { position: relative; height: 420rpx; overflow: hidden; margin-bottom: 24rpx; }
-.hero-bg { width: 100%; height: 100%; position: absolute; top: 0; left: 0; background: #2D2D3A; }
+.hero-swiper { width: 100%; height: 100%; }
+.hero-bg { width: 100%; height: 100%; }
 .hero-mask { position: absolute; top: 0; left: 0; right: 0; bottom: 0; background: rgba(0,0,0,0.35); }
 .hero-content { position: relative; z-index: 1; display: flex; flex-direction: column; align-items: center; justify-content: center; height: 100%; padding: 32rpx; }
 .hero-title { display: block; font-size: 40rpx; font-weight: bold; color: #FFFFFF; text-shadow: 0 2rpx 8rpx rgba(0,0,0,0.3); }
@@ -87,7 +88,7 @@ page { background: #F5F6FA; }
   to   { opacity: 1; transform: translateY(0); }
 }
 .card { width: calc(50% - 12rpx); background: #FFFFFF; border-radius: 24rpx; overflow: hidden; box-shadow: 0 2rpx 8rpx rgba(0,0,0,0.06); margin-bottom: 16rpx; }
-.card-img { width: 100%; height: 260rpx; background: #FFFFFF; padding: 20rpx; box-sizing: border-box; }
+.card-img { width: 100%; height: 300rpx; background: #FFFFFF; padding: 20rpx; box-sizing: border-box; }
 .card-ph { width: 100%; height: 280rpx; display: flex; align-items: center; justify-content: center; background: linear-gradient(135deg, #EEF0FF, #E8EAFF); }
 .ph-icon { font-size: 80rpx; }
 .card-info { padding: 20rpx 24rpx; }

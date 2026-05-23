@@ -10,11 +10,26 @@ Page({
     imgLoaded: 0,
     showProgress: false,
     imgReady: false,
+    banners: [
+      '/image/banben_img/0.webp',
+      '/image/banben_img/1.webp',
+      '/image/banben_img/2.webp',
+      '/image/banben_img/3.webp',
+      '/image/banben_img/4.webp',
+      '/image/banben_img/5.webp',
+      '/image/banben_img/6.webp',
+      '/image/banben_img/7.webp',
+      '/image/banben_img/8.webp',
+      '/image/banben_img/9.webp',
+    ],
+    currentBanner: 0,
   },
 
   onLoad: function () {
     var that = this
     api.fetchSeries().then(function (breeds) {
+      // 过滤掉呼拔拔系
+      breeds = breeds.filter(function (b) { return b.name !== '呼拔拔系' })
       // 只统计有封面图的品种
       var total = 0
       for (var i = 0; i < breeds.length; i++) {

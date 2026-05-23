@@ -58,7 +58,7 @@
     <!-- 图片网格：首屏就绪后渲染 -->
     <view wx:if="{{imgReady}}" class="img-grid grid-show">
       <view wx:for="{{images}}" wx:key="id" class="img-card" data-id="{{item.id}}" bindtap="onImageTap">
-        <image wx:if="{{item.thumbnailUrl}}" src="{{item.thumbnailUrl}}" mode="aspectFit" class="img-thumb" />
+        <image wx:if="{{item.thumbnailUrl}}" src="{{item.thumbnailUrl}}" mode="{{item.isGif ? 'aspectFit' : 'scaleToFill'}}" class="img-thumb" />
         <view wx:else class="img-ph"><text>🐾</text></view>
         <view class="img-name-wrap"><text class="img-name">{{item.name || ''}}</text></view>
       </view>
@@ -84,7 +84,7 @@
   <!-- 图片详情卡片 -->
   <view wx:if="{{detailImg}}" class="overlay" bindtap="onCloseDetail">
     <view class="detail-card" catchtap="">
-      <image wx:if="{{detailImgSrc}}" src="{{detailImgSrc}}" mode="aspectFit" class="detail-img" />
+      <image wx:if="{{detailImgSrc}}" src="{{detailImgSrc}}" mode="widthFix" class="detail-img" />
       <view wx:else class="detail-ph"><text>🐾</text></view>
       <view class="detail-info">
         <text class="detail-name">{{detailImg.name || '未命名'}}</text>

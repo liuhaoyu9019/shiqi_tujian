@@ -19,7 +19,10 @@
       "Skill(context-save)",
       "Skill(context-save:*)",
       "Bash(git -C \"d:/project/shiqi_tujian\" diff --stat HEAD)",
-      "Bash(git -C \"d:/project/shiqi_tujian\" log --oneline -10)"
+      "Bash(git -C \"d:/project/shiqi_tujian\" log --oneline -10)",
+      "Bash(node -e \"var db=require\\('./frontend/dev-db.json'\\); console.log\\('Breeds:',db.series.length\\); db.series.forEach\\(function\\(s\\){console.log\\('  id='+s.id, s.name, '| items:',JSON.stringify\\(db.items.filter\\(function\\(i\\){return i.seriesId===s.id}\\).map\\(function\\(i\\){return i.name}\\).slice\\(0,5\\)\\),'...'\\)}\\)\")",
+      "Bash(node -e ' *)",
+      "Bash(node -e *)"
     ]
   }
 }

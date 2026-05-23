@@ -112,20 +112,66 @@ function resolveBreedImages(breeds) {
 }
 
 /**
- * 对图片列表应用临时链接（同时处理 thumbnailUrl 和 originalUrl）
+ * 对图片列表应用临时链接：
+ *   thumbnailUrl → 新静态文件 + cgif/1 缩略图优化
+ *   originalUrl  → 旧动图文件（从 series-images/ 路径重建）
  */
-function resolveItemImages(items) {
+function resolveItemImages(items, oldPrefix) {
+  oldPrefix = oldPrefix || ''
+
+  // 第一步：从图片路径中提取品种名
+  var breedName = ''
+  for (var i = 0; i < items.length; i++) {
+    var u = items[i].thumbnailUrl || ''
+    var parts = u.split('/')
+    // cloud:// → parts[0]='cloud:', parts[1]='', parts[2]=envId, parts[3]=baseDir, parts[4]=folder
+    if (u.indexOf('breed-images/') !== -1 && parts.length >= 5) {
+      breedName = parts[4]
+      break
+    }
+    if (u.indexOf('series-images/') !== -1 && parts.length >= 5) {
+      var folder = parts[4]
+      var idx = folder.indexOf('_')
+      if (idx !== -1) {
+        breedName = folder.substring(idx + 1)
+        oldPrefix = oldPrefix || folder.substring(0, idx + 1)
+      }
+      break
+    }
+  }
+
+  console.log('[api] breedName:', breedName, 'oldPrefix:', oldPrefix)
+
+  // 第二步：收集 cloud:// URL，对已替换图片重建旧路径
   var thumbIds = []
   var origIds = []
+  var oldOrigMap = {}
+
   for (var i = 0; i < items.length; i++) {
-    var thumb = items[i].thumbnailUrl
-    var orig = items[i].originalUrl
-    if (thumb && thumb.indexOf('cloud://') === 0) thumbIds.push(thumb)
-    if (orig && orig.indexOf('cloud://') === 0) origIds.push(orig)
+    var thumb = items[i].thumbnailUrl || ''
+    var orig = items[i].originalUrl || ''
+
+    if (thumb.indexOf('cloud://') === 0) thumbIds.push(thumb)
+
+    if (orig.indexOf('breed-images/') !== -1 && oldPrefix && breedName) {
+      var imgId = items[i].id || ''
+      var imgName = items[i].name || ''
+      var oldId = thumb.replace(
+        /breed-images\/[^/]+\/[^/]+$/,
+        'series-images/' + oldPrefix + breedName + '/' + imgId + '_' + imgName + '.gif'
+      )
+      oldOrigMap[i] = oldId
+      origIds.push(oldId)
+    } else if (orig.indexOf('cloud://') === 0) {
+      origIds.push(orig)
+    }
   }
+
+  console.log('[api] thumbIds:', thumbIds.length, 'origIds:', origIds.length, 'reconstructed:', Object.keys(oldOrigMap).length)
 
   if (thumbIds.length === 0 && origIds.length === 0) return Promise.resolve(items)
 
+  // 第三步：批量转换成临时链接
   var tasks = []
   if (thumbIds.length > 0) tasks.push(batchGetTempFileURL(thumbIds))
   if (origIds.length > 0) tasks.push(batchGetTempFileURL(origIds))
@@ -135,13 +181,22 @@ function resolveItemImages(items) {
     var origMap = results[1] || {}
 
     for (var i = 0; i < items.length; i++) {
+      // 缩略图：新文件 + 强制第一帧
       if (thumbMap[items[i].thumbnailUrl]) {
-        items[i].thumbnailUrl = thumbMap[items[i].thumbnailUrl]
+        items[i].thumbnailUrl = thumbMap[items[i].thumbnailUrl] + '&imageMogr2/thumbnail/300x/cgif/1'
       }
-      if (items[i].originalUrl && origMap[items[i].originalUrl]) {
+
+      // 弹窗原图：取旧动图链接
+      if (oldOrigMap[i] && origMap[oldOrigMap[i]]) {
+        items[i].originalUrl = origMap[oldOrigMap[i]]
+      } else if (origMap[items[i].originalUrl]) {
         items[i].originalUrl = origMap[items[i].originalUrl]
+      } else if (thumbMap[items[i].thumbnailUrl]) {
+        // 兜底
+        items[i].originalUrl = thumbMap[items[i].thumbnailUrl]
       }
     }
+
     return items
   })
 }

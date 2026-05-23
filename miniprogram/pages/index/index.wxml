@@ -1,6 +1,10 @@
 <view class="page">
   <view class="hero">
-    <image class="hero-bg" src="https://www.xmwan.com/ueditor/php/upload/image/20210521/1621575551484549.png" mode="scaleToFill" />
+    <swiper class="hero-swiper" indicator-dots="{{true}}" indicator-color="rgba(255,255,255,0.4)" indicator-active-color="#FFFFFF" autoplay="{{true}}" circular="{{true}}" interval="3500" duration="500">
+      <swiper-item wx:for="{{banners}}" wx:key="index">
+        <image class="hero-bg" src="{{item}}" mode="scaleToFill" />
+      </swiper-item>
+    </swiper>
   </view>
 
   <!-- API 请求中：简洁加载，不用骨架屏（避免像卡片轮廓） -->
@@ -48,7 +52,7 @@
     <!-- 可见网格：图片全部就绪后才渲染 -->
     <view wx:if="{{imgReady}}" class="grid grid-show">
       <view wx:for="{{breeds}}" wx:key="id" class="card" data-id="{{item.id}}" bindtap="onBreedTap">
-        <image wx:if="{{item.coverUrl}}" src="{{item.coverUrl}}" mode="aspectFit" class="card-img" />
+        <image wx:if="{{item.coverUrl}}" src="{{item.coverUrl}}" mode="scaleToFill" class="card-img" />
         <view wx:else class="card-ph"><text class="ph-icon">🐾</text></view>
         <view class="card-info">
           <text class="card-name">{{item.name}}</text>
